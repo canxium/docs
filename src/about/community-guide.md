@@ -4,31 +4,25 @@ outline: deep
 
 # Community Guide {#community-guide}
 
-Vue's community is growing incredibly fast and if you're reading this, there's a good chance you're ready to join it. So... welcome!
+Welcome to Canxium's community.
 
 Now we'll answer both what the community can do for you and what you can do for the community.
 
 ## Resources {#resources}
 
-### Code of Conduct {#code-of-conduct}
-
-Our [Code of Conduct](/about/coc) is a guide to make it easier to enrich all of us and the technical communities in which we participate.
-
 ### Stay in the Know {#stay-in-the-know}
 
-- Follow our [official Twitter account](https://twitter.com/vuejs).
-- Follow our [team members](./team) on Twitter or GitHub.
+- Follow our [official Twitter account](https://x.com/canxiumchain).
+- Follow our [team members](/about/team) on Twitter or GitHub.
 - Follow the [RFC discussions](https://github.com/vuejs/rfcs).
-- Subscribe to the [official blog](https://blog.vuejs.org/).
+- Subscribe to the [official blog](https://canxium.medium.com/).
 
 ### Get Support {#get-support}
 
-- [Discord Chat](https://discord.com/invite/vue): A place for Vue devs to meet and chat in real time.
-- [Forum](https://forum.vuejs.org/): The best place to ask questions and get answers about Vue and its ecosystem.
-- [DEV Community](https://dev.to/t/vue): Share and discuss Vue related topics on Dev.to.
-- [Meetups](https://events.vuejs.org/meetups): Want to find local Vue enthusiasts like yourself? Interested in becoming a community leader? We have the help and support you need right here!
-- [GitHub](https://github.com/vuejs): If you have a bug to report or feature to request, that's what the GitHub issues are for. Please respect the rules specified in each repository's issue template.
-- [Twitter Community (unofficial)](https://twitter.com/i/communities/1516368750634840064): A Twitter community, where you can meet other Vue enthusiasts, get help, or just chat about Vue.
+- [Telegram Chat](https://t.me/canxiumofficial): A place for to meet and chat in real time.
+- [Telegram Channel](https://t.me/canxium): For latest news.
+- [GitHub](https://github.com/canxium): If you have a bug to report or feature to request, that's what the GitHub issues are for.
+- [Twitter](https://x.com/canxiumchain): Get help, or just chat about Canxium.
 
 ### Explore the Ecosystem {#explore-the-ecosystem}
 
@@ -69,8 +63,6 @@ Apart from answering questions and sharing resources in the forum and chat, ther
 ### Translate Docs {#translate-docs}
 
 I hope that right now, you're reading this sentence in your preferred language. If not, would you like to help us get there?
-
-See the [Translations guide](/translations/) for more details on how you can get involved.
 
 ### Become a Community Leader {#become-a-community-leader}
 

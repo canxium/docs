@@ -12,30 +12,33 @@ const nav: ThemeConfig['nav'] = [
     activeMatch: `^/(guide|style-guide|cookbook|examples)/`,
     items: [
       { text: 'Guide', link: '/guide/introduction' },
-      { text: 'Tutorial', link: '/tutorial/' },
-      { text: 'Examples', link: '/examples/' },
+      { text: 'Wallet', link: '/guide/quick-start#set-up-a-wallet' },
       { text: 'Quick Start', link: '/guide/quick-start' },
-      // { text: 'Style Guide', link: '/style-guide/' },
-      { text: 'Glossary', link: '/glossary/' },
-      { text: 'Error Reference', link: '/error-reference/' },
+      { text: 'Glossary', link: '/guide/essentials/glossary/' },
+      { text: 'Security audits', link: '/guide/essentials/audits/' },
+      { text: 'Offline Mining', link: '/guide/essentials/offline-mining/' },
       {
-        text: 'Vue 2 Docs',
-        link: 'https://v2.vuejs.org'
+        text: 'Lighthouse Docs',
+        link: 'https://lighthouse-book.sigmaprime.io/intro.html'
       },
       {
-        text: 'Migration from Vue 2',
-        link: 'https://v3-migration.vuejs.org/'
+        text: 'Prysm Docs',
+        link: 'https://docs.prylabs.network/docs/getting-started'
+      },
+      {
+        text: 'Lodestar Docs',
+        link: 'https://chainsafe.github.io/lodestar/'
       }
     ]
   },
   {
     text: 'API',
     activeMatch: `^/api/`,
-    link: '/api/'
+    link: '/api/endpoints'
   },
   {
-    text: 'Playground',
-    link: 'https://play.vuejs.org'
+    text: 'Whitepaper',
+    link: '/paper/abstract'
   },
   {
     text: 'Ecosystem',
@@ -45,35 +48,34 @@ const nav: ThemeConfig['nav'] = [
         text: 'Resources',
         items: [
           { text: 'Partners', link: '/partners/' },
-          { text: 'Developers', link: '/developers/' },
-          { text: 'Themes', link: '/ecosystem/themes' },
-          { text: 'UI Components', link: 'https://ui-libs.vercel.app/' },
-          {
-            text: 'Certification',
-            link: 'https://certificates.dev/vuejs/?ref=vuejs-nav'
-          },
-          { text: 'Jobs', link: 'https://vuejobs.com/?ref=vuejs' },
-          { text: 'T-Shirt Shop', link: 'https://vue.threadless.com/' }
+          { text: 'App', link: 'https://app.canxium.org/' },
+          { text: 'Scan', link: 'https://scan.canxium.org/' },
+          { text: 'Testnet Scan', link: 'https://testnet-scan.canxium.net/' },
+          { text: 'Faucet', link: 'https://faucet.canxium.org/' },
+          { text: 'Coingecko', link: 'https://www.coingecko.com/en/coins/canxium' },
+          { text: 'Coinmarketcap', link: 'https://coinmarketcap.com/currencies/canxium/' },
+          { text: 'Livecoinwatch', link: 'https://www.livecoinwatch.com/price/Canxium-CAU' },
+          { text: 'Geckoterminal', link: 'https://www.geckoterminal.com/canxium/pools' },
         ]
       },
       {
-        text: 'Official Libraries',
+        text: 'Libraries',
         items: [
-          { text: 'Vue Router', link: 'https://router.vuejs.org/' },
-          { text: 'Pinia', link: 'https://pinia.vuejs.org/' },
-          { text: 'Tooling Guide', link: '/guide/scaling-up/tooling.html' }
+          { text: 'Go Web3', link: 'https://github.com/canxium/go-web3' },
+          { text: 'Staking CLI', link: 'https://github.com/canxium/staking-deposit-cli' },
+          { text: 'Token List', link: 'https://github.com/canxium/swap-default-token-list' }
         ]
       },
       {
         text: 'Video Courses',
         items: [
           {
-            text: 'Vue Mastery',
-            link: 'https://www.vuemastery.com/courses/'
+            text: 'Offline Mining',
+            link: 'https://www.youtube.com/watch?v=r9AapliszqA'
           },
           {
-            text: 'Vue School',
-            link: 'https://vueschool.io/?friend=vuejs&utm_source=Vuejs.org&utm_medium=Link&utm_content=Navbar%20Dropdown'
+            text: '$CAU Mining',
+            link: 'https://www.youtube.com/watch?v=15kHFXmqtwg'
           }
         ]
       },
@@ -81,23 +83,20 @@ const nav: ThemeConfig['nav'] = [
         text: 'Help',
         items: [
           {
-            text: 'Discord Chat',
-            link: 'https://discord.com/invite/HBherRA'
+            text: 'Telegram Chat',
+            link: 'https://t.me/canxiumofficial'
           },
           {
             text: 'GitHub Discussions',
-            link: 'https://github.com/vuejs/core/discussions'
-          },
-          { text: 'DEV Community', link: 'https://dev.to/t/vue' }
+            link: 'https://github.com/canxium/go-canxium/discussions'
+          }
         ]
       },
       {
         text: 'News',
         items: [
-          { text: 'Blog', link: 'https://blog.vuejs.org/' },
-          { text: 'Twitter', link: 'https://twitter.com/vuejs' },
-          { text: 'Events', link: 'https://events.vuejs.org/' },
-          { text: 'Newsletters', link: '/ecosystem/newsletters' }
+          { text: 'Blog', link: 'https://canxium.medium.com/' },
+          { text: 'Twitter', link: 'https://x.com/canxiumchain' }
         ]
       }
     ]
@@ -109,31 +108,24 @@ const nav: ThemeConfig['nav'] = [
       { text: 'FAQ', link: '/about/faq' },
       { text: 'Team', link: '/about/team' },
       { text: 'Releases', link: '/about/releases' },
-      {
-        text: 'Community Guide',
-        link: '/about/community-guide'
-      },
       { text: 'Code of Conduct', link: '/about/coc' },
-      { text: 'Privacy Policy', link: '/about/privacy' },
-      {
-        text: 'The Documentary',
-        link: 'https://www.youtube.com/watch?v=OrxmtDw4pVI'
-      }
+      { text: 'Privacy Policy', link: '/privacy' },
+      { text: 'Terms of Service', link: '/tos' },
     ]
   },
-  {
-    text: 'Sponsor',
-    link: '/sponsor/'
-  },
-  {
-    text: 'Experts',
-    badge: { text: 'NEW' },
-    activeMatch: `^/(partners|developers)/`,
-    items: [
-      { text: 'Partners', link: '/partners/' },
-      { text: 'Developers', link: '/developers/', badge: { text: 'NEW' } }
-    ]
-  }
+  // {
+  //   text: 'Sponsor',
+  //   link: '/sponsor/'
+  // },
+  // {
+  //   text: 'Experts',
+  //   badge: { text: 'NEW' },
+  //   activeMatch: `^/(partners|developers)/`,
+  //   items: [
+  //     { text: 'Partners', link: '/partners/' },
+  //     { text: 'Developers', link: '/developers/', badge: { text: 'NEW' } }
+  //   ]
+  // }
 ]
 
 export const sidebar: ThemeConfig['sidebar'] = {
@@ -152,415 +144,164 @@ export const sidebar: ThemeConfig['sidebar'] = {
       text: 'Essentials',
       items: [
         {
-          text: 'Creating an Application',
-          link: '/guide/essentials/application'
+          text: 'RPCs',
+          link: '/guide/essentials/rpc'
         },
         {
-          text: 'Template Syntax',
-          link: '/guide/essentials/template-syntax'
+          text: 'Bridge',
+          link: '/guide/essentials/bridge'
         },
         {
-          text: 'Reactivity Fundamentals',
-          link: '/guide/essentials/reactivity-fundamentals'
+          text: 'Acquire $CAU & $OFF',
+          link: '/guide/essentials/acquire'
         },
         {
-          text: 'Computed Properties',
-          link: '/guide/essentials/computed'
+          text: 'Glossary',
+          link: '/guide/essentials/glossary'
         },
         {
-          text: 'Class and Style Bindings',
-          link: '/guide/essentials/class-and-style'
+          text: 'Canxium consensus',
+          link: '/guide/essentials/consensus'
         },
         {
-          text: 'Conditional Rendering',
-          link: '/guide/essentials/conditional'
+          text: 'Validator Rewards',
+          link: '/guide/essentials/rewards'
         },
-        { text: 'List Rendering', link: '/guide/essentials/list' },
         {
-          text: 'Event Handling',
-          link: '/guide/essentials/event-handling'
+          text: 'Tokenomics',
+          link: '/guide/essentials/tokenomics'
         },
-        { text: 'Form Input Bindings', link: '/guide/essentials/forms' },
+        { text: 'Nodes and networks', link: '/guide/essentials/nodes' },
         {
-          text: 'Lifecycle Hooks',
-          link: '/guide/essentials/lifecycle'
+          text: 'Dex Contracts',
+          link: '/guide/essentials/dex'
         },
-        { text: 'Watchers', link: '/guide/essentials/watchers' },
-        { text: 'Template Refs', link: '/guide/essentials/template-refs' },
         {
-          text: 'Components Basics',
-          link: '/guide/essentials/component-basics'
-        }
+          text: 'Security audits',
+          link: '/guide/essentials/audits'
+        },
+        {
+          text: 'Community',
+          link: '/guide/essentials/community'
+        },
+        { text: 'Offline Mining', link: '/guide/essentials/offline-mining' }
       ]
     },
     {
-      text: 'Components In-Depth',
+      text: 'RPC Nodes',
       items: [
         {
-          text: 'Registration',
-          link: '/guide/components/registration'
+          text: 'Prerequisites',
+          link: '/guide/rpc-nodes/prerequisites'
         },
-        { text: 'Props', link: '/guide/components/props' },
-        { text: 'Events', link: '/guide/components/events' },
-        { text: 'Component v-model', link: '/guide/components/v-model' },
-        {
-          text: 'Fallthrough Attributes',
-          link: '/guide/components/attrs'
-        },
-        { text: 'Slots', link: '/guide/components/slots' },
-        {
-          text: 'Provide / inject',
-          link: '/guide/components/provide-inject'
-        },
-        {
-          text: 'Async Components',
-          link: '/guide/components/async'
-        }
+        { text: 'Setup', link: '/guide/rpc-nodes/setup' },
       ]
     },
     {
-      text: 'Reusability',
+      text: 'Validator Nodes',
       items: [
         {
-          text: 'Composables',
-          link: '/guide/reusability/composables'
+          text: 'Prerequisites',
+          link: '/guide/validator/prerequisites'
         },
-        {
-          text: 'Custom Directives',
-          link: '/guide/reusability/custom-directives'
-        },
-        { text: 'Plugins', link: '/guide/reusability/plugins' }
+        { text: 'Keys', link: '/guide/validator/keys' },
+        { text: 'Deposit', link: '/guide/validator/deposit' },
+        { text: 'Setup Node', link: '/guide/validator/setup' },
+        { text: 'Exit Node', link: '/guide/validator/exit' },
+      ]
+    }
+  ],
+  '/paper/': [
+    {
+      text: 'Overview',
+      items: [
+        { text: 'Abstract', link: '/paper/abstract' },
+        { text: 'Introduction', link: '/paper/introduction' },
+        { text: 'Problem Statement', link: '/paper/statement' }
       ]
     },
     {
-      text: 'Built-in Components',
+      text: 'Objectives',
       items: [
-        { text: 'Transition', link: '/guide/built-ins/transition' },
         {
-          text: 'TransitionGroup',
-          link: '/guide/built-ins/transition-group'
+          text: 'Overview',
+          link: '/paper/objectives/overview'
         },
-        { text: 'KeepAlive', link: '/guide/built-ins/keep-alive' },
-        { text: 'Teleport', link: '/guide/built-ins/teleport' },
-        { text: 'Suspense', link: '/guide/built-ins/suspense' }
+        {
+          text: 'Suitable Supply Model',
+          link: '/paper/objectives/supply'
+        },
+        {
+          text: 'Mitigate Mining Cost Volatility',
+          link: '/paper/objectives/mining'
+        },
+        {
+          text: 'Stability and Reliability',
+          link: '/paper/objectives/stability'
+        },
+        {
+          text: 'Accessibility and Usability',
+          link: '/paper/objectives/accessibility'
+        },
       ]
     },
     {
-      text: 'Scaling Up',
+      text: 'Canxium In-Depth',
       items: [
-        { text: 'Single-File Components', link: '/guide/scaling-up/sfc' },
-        { text: 'Tooling', link: '/guide/scaling-up/tooling' },
-        { text: 'Routing', link: '/guide/scaling-up/routing' },
         {
-          text: 'State Management',
-          link: '/guide/scaling-up/state-management'
+          text: 'Summary',
+          link: '/paper/depth/summary'
         },
-        { text: 'Testing', link: '/guide/scaling-up/testing' },
-        {
-          text: 'Server-Side Rendering (SSR)',
-          link: '/guide/scaling-up/ssr'
-        }
+        { text: 'Stabilize Mining Costs', link: '/paper/depth/stabilize' },
+        { text: 'Proof Off Work', link: '/paper/depth/pow' },
+        { text: 'Proof Of Demand', link: '/paper/depth/pod' },
+        { text: 'Proof Of Stake', link: '/paper/depth/pos' },
+        { text: 'High-Quality Smart Contract', link: '/paper/depth/contract' }
       ]
     },
     {
-      text: 'Best Practices',
+      text: 'Technical Details',
       items: [
-        {
-          text: 'Production Deployment',
-          link: '/guide/best-practices/production-deployment'
-        },
-        {
-          text: 'Performance',
-          link: '/guide/best-practices/performance'
-        },
-        {
-          text: 'Accessibility',
-          link: '/guide/best-practices/accessibility'
-        },
-        {
-          text: 'Security',
-          link: '/guide/best-practices/security'
-        }
+        { text: 'Proof Off Work', link: '/paper/technical/pow' },
+        { text: 'Proof Of Demand', link: '/paper/technical/pod' },
+        { text: 'Proof Of Stake', link: '/paper/technical/pos' },
       ]
     },
     {
-      text: 'TypeScript',
+      text: 'Extra Details',
       items: [
-        { text: 'Overview', link: '/guide/typescript/overview' },
-        {
-          text: 'TS with Composition API',
-          link: '/guide/typescript/composition-api'
-        },
-        {
-          text: 'TS with Options API',
-          link: '/guide/typescript/options-api'
-        }
-      ]
-    },
-    {
-      text: 'Extra Topics',
-      items: [
-        {
-          text: 'Ways of Using Vue',
-          link: '/guide/extras/ways-of-using-vue'
-        },
-        {
-          text: 'Composition API FAQ',
-          link: '/guide/extras/composition-api-faq'
-        },
-        {
-          text: 'Reactivity in Depth',
-          link: '/guide/extras/reactivity-in-depth'
-        },
-        {
-          text: 'Rendering Mechanism',
-          link: '/guide/extras/rendering-mechanism'
-        },
-        {
-          text: 'Render Functions & JSX',
-          link: '/guide/extras/render-function'
-        },
-        {
-          text: 'Vue and Web Components',
-          link: '/guide/extras/web-components'
-        },
-        {
-          text: 'Animation Techniques',
-          link: '/guide/extras/animation'
-        }
-        // {
-        //   text: 'Building a Library for Vue',
-        //   link: '/guide/extras/building-a-library'
-        // },
-        // {
-        //   text: 'Vue for React Devs',
-        //   link: '/guide/extras/vue-for-react-devs'
-        // }
+        { text: 'Tokenomics', link: '/paper/tokenomics/tokenomics' },
+        { text: 'Use Cases', link: '/paper/usecases' },
+        { text: 'Roadmap', link: '/paper/roadmap' }
       ]
     }
   ],
   '/api/': [
     {
-      text: 'Global API',
+      text: 'Execution  RPC',
       items: [
-        { text: 'Application', link: '/api/application' },
+        { text: 'Endpoints', link: '/api/endpoints' },
         {
-          text: 'General',
+          text: 'go-canxium',
           link: '/api/general'
         }
       ]
     },
     {
-      text: 'Composition API',
+      text: 'Consensus API',
       items: [
-        { text: 'setup()', link: '/api/composition-api-setup' },
+        { text: 'Lighthouse', link: '/api/lighthouse' },
         {
-          text: 'Reactivity: Core',
-          link: '/api/reactivity-core'
-        },
-        {
-          text: 'Reactivity: Utilities',
-          link: '/api/reactivity-utilities'
-        },
-        {
-          text: 'Reactivity: Advanced',
-          link: '/api/reactivity-advanced'
-        },
-        {
-          text: 'Lifecycle Hooks',
-          link: '/api/composition-api-lifecycle'
-        },
-        {
-          text: 'Dependency Injection',
-          link: '/api/composition-api-dependency-injection'
-        },
-        {
-          text: 'Helpers',
-          link: '/api/composition-api-helpers'
+          text: 'Prsym',
+          link: '/api/prysm'
         }
       ]
     },
     {
-      text: 'Options API',
+      text: 'Scan API',
       items: [
-        { text: 'Options: State', link: '/api/options-state' },
-        { text: 'Options: Rendering', link: '/api/options-rendering' },
-        {
-          text: 'Options: Lifecycle',
-          link: '/api/options-lifecycle'
-        },
-        {
-          text: 'Options: Composition',
-          link: '/api/options-composition'
-        },
-        { text: 'Options: Misc', link: '/api/options-misc' },
-        {
-          text: 'Component Instance',
-          link: '/api/component-instance'
-        }
-      ]
-    },
-    {
-      text: 'Built-ins',
-      items: [
-        { text: 'Directives', link: '/api/built-in-directives' },
-        { text: 'Components', link: '/api/built-in-components' },
-        {
-          text: 'Special Elements',
-          link: '/api/built-in-special-elements'
-        },
-        {
-          text: 'Special Attributes',
-          link: '/api/built-in-special-attributes'
-        }
-      ]
-    },
-    {
-      text: 'Single-File Component',
-      items: [
-        { text: 'Syntax Specification', link: '/api/sfc-spec' },
-        { text: '<script setup>', link: '/api/sfc-script-setup' },
-        { text: 'CSS Features', link: '/api/sfc-css-features' }
-      ]
-    },
-    {
-      text: 'Advanced APIs',
-      items: [
-        { text: 'Custom Elements', link: '/api/custom-elements' },
-        { text: 'Render Function', link: '/api/render-function' },
-        { text: 'Server-Side Rendering', link: '/api/ssr' },
-        { text: 'TypeScript Utility Types', link: '/api/utility-types' },
-        { text: 'Custom Renderer', link: '/api/custom-renderer' },
-        { text: 'Compile-Time Flags', link: '/api/compile-time-flags' }
-      ]
-    }
-  ],
-  '/examples/': [
-    {
-      text: 'Basic',
-      items: [
-        {
-          text: 'Hello World',
-          link: '/examples/#hello-world'
-        },
-        {
-          text: 'Handling User Input',
-          link: '/examples/#handling-input'
-        },
-        {
-          text: 'Attribute Bindings',
-          link: '/examples/#attribute-bindings'
-        },
-        {
-          text: 'Conditionals and Loops',
-          link: '/examples/#conditionals-and-loops'
-        },
-        {
-          text: 'Form Bindings',
-          link: '/examples/#form-bindings'
-        },
-        {
-          text: 'Simple Component',
-          link: '/examples/#simple-component'
-        }
-      ]
-    },
-    {
-      text: 'Practical',
-      items: [
-        {
-          text: 'Markdown Editor',
-          link: '/examples/#markdown'
-        },
-        {
-          text: 'Fetching Data',
-          link: '/examples/#fetching-data'
-        },
-        {
-          text: 'Grid with Sort and Filter',
-          link: '/examples/#grid'
-        },
-        {
-          text: 'Tree View',
-          link: '/examples/#tree'
-        },
-        {
-          text: 'SVG Graph',
-          link: '/examples/#svg'
-        },
-        {
-          text: 'Modal with Transitions',
-          link: '/examples/#modal'
-        },
-        {
-          text: 'List with Transitions',
-          link: '/examples/#list-transition'
-        },
-        {
-          text: 'TodoMVC',
-          link: '/examples/#todomvc'
-        }
-      ]
-    },
-    {
-      // https://eugenkiss.github.io/7guis/
-      text: '7 GUIs',
-      items: [
-        {
-          text: 'Counter',
-          link: '/examples/#counter'
-        },
-        {
-          text: 'Temperature Converter',
-          link: '/examples/#temperature-converter'
-        },
-        {
-          text: 'Flight Booker',
-          link: '/examples/#flight-booker'
-        },
-        {
-          text: 'Timer',
-          link: '/examples/#timer'
-        },
-        {
-          text: 'CRUD',
-          link: '/examples/#crud'
-        },
-        {
-          text: 'Circle Drawer',
-          link: '/examples/#circle-drawer'
-        },
-        {
-          text: 'Cells',
-          link: '/examples/#cells'
-        }
-      ]
-    }
-  ],
-  '/style-guide/': [
-    {
-      text: 'Style Guide',
-      items: [
-        {
-          text: 'Overview',
-          link: '/style-guide/'
-        },
-        {
-          text: 'A - Essential',
-          link: '/style-guide/rules-essential'
-        },
-        {
-          text: 'B - Strongly Recommended',
-          link: '/style-guide/rules-strongly-recommended'
-        },
-        {
-          text: 'C - Recommended',
-          link: '/style-guide/rules-recommended'
-        },
-        {
-          text: 'D - Use with Caution',
-          link: '/style-guide/rules-use-with-caution'
-        }
+        { text: 'General', link: '/api/scan-api' },
+        { text: 'Hardhat', link: '/api/scan-hardhat' }
       ]
     }
   ]
@@ -574,32 +315,32 @@ export default defineConfigWithTheme<ThemeConfig>({
   extends: baseConfig,
 
   sitemap: {
-    hostname: 'https://vuejs.org'
+    hostname: 'https://canxium.org'
   },
 
   lang: 'en-US',
-  title: 'Vue.js',
-  description: 'Vue.js - The Progressive JavaScript Framework',
+  title: 'Canxium',
+  description: 'Canxium - Powering Crypto, Even Offline',
   srcDir: 'src',
   srcExclude: ['tutorial/**/description.md'],
 
   head: [
     ['meta', { name: 'theme-color', content: '#3c8772' }],
-    ['meta', { property: 'og:url', content: 'https://vuejs.org/' }],
+    ['meta', { property: 'og:url', content: 'https://canxium.org/' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'Vue.js' }],
+    ['meta', { property: 'og:title', content: 'Canxium' }],
     [
       'meta',
       {
         property: 'og:description',
-        content: 'Vue.js - The Progressive JavaScript Framework'
+        content: 'Canxium - Powering Crypto, Even Offline'
       }
     ],
     [
       'meta',
       {
         property: 'og:image',
-        content: 'https://vuejs.org/images/logo.png'
+        content: 'https://canxium.org/images/icon.png'
       }
     ],
     ['meta', { name: 'twitter:site', content: '@vuejs' }],
@@ -635,13 +376,6 @@ export default defineConfigWithTheme<ThemeConfig>({
         'data-spa': 'auto',
         defer: ''
       }
-    ],
-    [
-      'script',
-      {
-        src: 'https://vueschool.io/banner.js?affiliate=vuejs&type=top',
-        async: 'true'
-      }
     ]
   ],
 
@@ -650,75 +384,6 @@ export default defineConfigWithTheme<ThemeConfig>({
     sidebar,
     // Placeholder of the i18n config for @vuejs-translations.
     // i18n,
-
-    localeLinks: [
-      {
-        link: 'https://cn.vuejs.org',
-        text: '简体中文',
-        repo: 'https://github.com/vuejs-translations/docs-zh-cn'
-      },
-      {
-        link: 'https://ja.vuejs.org',
-        text: '日本語',
-        repo: 'https://github.com/vuejs-translations/docs-ja'
-      },
-      {
-        link: 'https://ua.vuejs.org',
-        text: 'Українська',
-        repo: 'https://github.com/vuejs-translations/docs-uk'
-      },
-      {
-        link: 'https://fr.vuejs.org',
-        text: 'Français',
-        repo: 'https://github.com/vuejs-translations/docs-fr'
-      },
-      {
-        link: 'https://ko.vuejs.org',
-        text: '한국어',
-        repo: 'https://github.com/vuejs-translations/docs-ko'
-      },
-      {
-        link: 'https://pt.vuejs.org',
-        text: 'Português',
-        repo: 'https://github.com/vuejs-translations/docs-pt'
-      },
-      {
-        link: 'https://bn.vuejs.org',
-        text: 'বাংলা',
-        repo: 'https://github.com/vuejs-translations/docs-bn'
-      },
-      {
-        link: 'https://it.vuejs.org',
-        text: 'Italiano',
-        repo: 'https://github.com/vuejs-translations/docs-it'
-      },
-      {
-        link: 'https://fa.vuejs.org',
-        text: 'فارسی',
-        repo: 'https://github.com/vuejs-translations/docs-fa'
-      },
-      {
-        link: 'https://ru.vuejs.org',
-        text: 'Русский',
-        repo: 'https://github.com/translation-gang/docs-ru'
-      },
-      {
-        link: 'https://cs.vuejs.org',
-        text: 'Čeština',
-        repo: 'https://github.com/vuejs-translations/docs-cs'
-      },
-      {
-        link: 'https://zh-hk.vuejs.org',
-        text: '繁體中文',
-        repo: 'https://github.com/vuejs-translations/docs-zh-hk'
-      },
-      {
-        link: '/translations/',
-        text: 'Help Us Translate!',
-        isTranslationsDesc: true
-      }
-    ],
-
     algolia: {
       indexName: 'vuejs',
       appId: 'ML0LEBN7FQ',
@@ -728,19 +393,13 @@ export default defineConfigWithTheme<ThemeConfig>({
       }
     },
 
-    carbonAds: {
-      code: 'CEBDT27Y',
-      placement: 'vuejsorg'
-    },
-
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/' },
-      { icon: 'twitter', link: 'https://twitter.com/vuejs' },
-      { icon: 'discord', link: 'https://discord.com/invite/vue' }
+      { icon: 'github', link: 'https://github.com/canxium/' },
+      { icon: 'twitter', link: 'https://x.com/canxiumchain' },
     ],
 
     editLink: {
-      repo: 'vuejs/docs',
+      repo: 'canxium/docs',
       text: 'Edit this page on GitHub'
     },
 
@@ -749,7 +408,7 @@ export default defineConfigWithTheme<ThemeConfig>({
         text: 'MIT License',
         link: 'https://opensource.org/licenses/MIT'
       },
-      copyright: `Copyright © 2014-${new Date().getFullYear()} Evan You`
+      copyright: `Copyright © 2023-${new Date().getFullYear()} Canxium, Website designed by Evan You @ Vuejs`
     }
   },
 

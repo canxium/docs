@@ -25,10 +25,12 @@ import { VTLink } from '@vue/theme'
 import membersCoreData from './members-core.json'
 import membersEmeritiData from './members-emeriti.json'
 import membersPartnerData from './members-partner.json'
+import membersData from './members.json'
 import TeamHero from './TeamHero.vue'
 import TeamList from './TeamList.vue'
 import type { Member } from './Member'
 shuffleMembers(membersCoreData as Member[], true)
+shuffleMembers(membersData as Member[], true)
 shuffleMembers(membersEmeritiData as Member[])
 shuffleMembers(membersPartnerData as Member[])
 </script>
@@ -38,17 +40,7 @@ shuffleMembers(membersPartnerData as Member[])
     <TeamHero>
       <template #title>Meet the Team</template>
       <template #lead>
-        The development of Vue and its ecosystem is guided by an
-        international team, some of whom have chosen to be
-        <span class="nowrap">featured below.</span>
-      </template>
-
-      <template #action>
-        <VTLink
-          href="https://github.com/vuejs/governance/blob/master/Team-Charter.md"
-        >
-          Learn more about teams
-        </VTLink>
+        Canxium began as a side project and was fair-launched, with no fundraising, no pre-mining, no private sales, and no public sales. It is still in its early stages and is maintained and developed by Neo. Additional members will be recruited over time to meet Canxium’s development needs.
       </template>
     </TeamHero>
 
@@ -56,27 +48,37 @@ shuffleMembers(membersPartnerData as Member[])
       <template #title>Core Team Members</template>
       <template #lead>
         Core team members are those who are actively involved in the
-        maintenance of one or more core projects. They have made
-        significant contributions to the Vue ecosystem, with a long term
-        commitment to the success of the project and its users.
+        maintenance of one or more core projects.
+        
+        Members are free to choose whether to keep their identity public or remain anonymous.
       </template>
     </TeamList>
 
-    <TeamList :members="(membersEmeritiData as Member[])">
-      <template #title>Core Team Emeriti</template>
+    <TeamList :members="(membersData as Member[])">
+      <template #title>Team Members</template>
       <template #lead>
-        Here we honor some no-longer-active core team members who have made
-        valuable contributions in the past.
+        Team members are members hired by Neo to build, develop and
+        maintenance of one or more core projects.
+        
+        Members are free to choose whether to keep their identity public or remain anonymous.
       </template>
     </TeamList>
 
     <TeamList :members="(membersPartnerData as Member[])">
       <template #title>Community Partners</template>
       <template #lead>
-        Some members of the Vue community have so enriched it, that they
+        Some members of the Canxium community have so enriched it, that they
         deserve special mention. We've developed a more intimate
         relationship with these key partners, often coordinating with them
         on upcoming features and news.
+      </template>
+    </TeamList>
+
+    <TeamList :members="(membersEmeritiData as Member[])">
+      <template #title>Team Emeriti</template>
+      <template #lead>
+        Here we honor some no-longer-active team members who have made
+        valuable contributions in the past.
       </template>
     </TeamList>
   </div>

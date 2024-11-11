@@ -1,9 +1,7 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
 import SiteMap from './SiteMap.vue'
-// import NewsLetter from './NewsLetter.vue'
-import { load, data, base } from './sponsors'
-import SponsorsGroup from './SponsorsGroup.vue'
+import { load } from './sponsors'
 import VueMasteryModal from './VueMasteryModal.vue'
 
 onMounted(load)
@@ -13,13 +11,12 @@ onMounted(load)
   <section id="hero">
     <img id="uwu" alt="Vue.js Kawaii Logo by @icarusgkx" />
     <h1 class="tagline">
-      The
-      <span class="accent">Progressive</span>
-      <br />JavaScript Framework
+      Powering
+      <span class="accent">Crypto,</span>
+      <br />Even Offline
     </h1>
     <p class="description">
-      An approachable, performant and versatile framework for building web
-      user interfaces.
+      Enabling offline crypto mining, tailored for market demand.
     </p>
     <p class="actions">
       <VueMasteryModal />
@@ -37,9 +34,9 @@ onMounted(load)
           />
         </svg>
       </a>
-      <a class="setup" href="/guide/quick-start.html">Install</a>
-      <a class="security" href="https://v2.vuejs.org/eol/" target="_blank">
-        Get Security Updates for Vue 2
+      <a class="setup" href="/guide/rpc-nodes/prerequisites">Install</a>
+      <a class="security" href="/guide/validator/prerequisites">
+        Launch a Validator
         <svg
           class="icon"
           xmlns="http://www.w3.org/2000/svg"
@@ -53,58 +50,49 @@ onMounted(load)
     </p>
   </section>
 
-  <section v-if="data && data.special" id="special-sponsor">
-    <span class="lead">Special Sponsor</span>
-    <template v-for="{ url, img, name, description } of data.special">
-      <a :href="url" target="_blank" rel="sponsored noopener">
-        <picture v-if="img.endsWith('png')">
-          <source
-            type="image/avif"
-            :srcset="`${base}/images/${img.replace(/\.png$/, '.avif')}`"
-          />
-          <img :src="`${base}/images/${img}`" :alt="name" />
-        </picture>
-        <img
-          width="168"
-          height="42"
-          v-else
-          :src="`${base}/images/${img}`"
-          :alt="name"
-        />
-      </a>
-      <span>{{ description }}</span>
-    </template>
-  </section>
-
   <section id="highlights" class="vt-box-container">
     <div class="vt-box">
-      <h2>Approachable</h2>
+      <h2>Innovation in Accessibility</h2>
       <p>
-        Builds on top of standard HTML, CSS and JavaScript with intuitive
-        API and world-class documentation.
+        Making blockchain technology more accessible by enabling offline crypto mining, expanding usability and inclusivity in diverse environments.
       </p>
     </div>
     <div class="vt-box">
-      <h2>Performant</h2>
+      <h2>Market Responsiveness</h2>
       <p>
-        Truly reactive, compiler-optimized rendering system that rarely
-        requires manual optimization.
+        Designed to adapt to real market needs, ensuring Canxium aligns with user demands and industry trends for maximum relevance and utility.
       </p>
     </div>
     <div class="vt-box">
-      <h2>Versatile</h2>
+      <h2>Reliability & Independence</h2>
       <p>
-        A rich, incrementally adoptable ecosystem that scales between a
-        library and a full-featured framework.
+        Providing a stable, decentralized blockchain solution that users can trust, operating independently of constant internet connectivity.
       </p>
     </div>
-  </section>
-
-  <section id="sponsors">
-    <h2>Platinum Sponsors</h2>
-    <SponsorsGroup tier="platinum" placement="landing" />
-    <h2>Gold Sponsors</h2>
-    <SponsorsGroup tier="gold" placement="landing" />
+    <div class="vt-box">
+      <h2>Sustainable Growth</h2>
+      <p>
+        Promoting sustainable, energy-conscious mining practices through efficient offline functionality, supporting long-term growth without excessive resource consumption.
+      </p>
+    </div>
+    <div class="vt-box">
+      <h2>Decentralized Autonomy</h2>
+      <p>
+        Empowering miners with full control over their mining activities without dependency on centralized infrastructure or constant connectivity or compete with each other.
+      </p>
+    </div>
+    <div class="vt-box">
+      <h2>Sustainable Stability</h2>
+      <p>
+        Canxium have developed a new PoW coin that maintains its value by adjusting mining rewards base on mining difficulty in response to real-time market conditions.
+      </p>
+    </div>
+    <div class="vt-box">
+      <h2>Multiple PoW Algorithm</h2>
+      <p>
+        Canxium can support multiple PoW algorithms simultaneously due to its mining mechanism. Miners can even use Bitcoin mining hardware to mine Canxium Coin.
+      </p>
+    </div>
   </section>
 
   <SiteMap />
@@ -256,7 +244,7 @@ html:not(.dark) .accent,
 }
 
 #highlights {
-  max-width: 960px;
+  max-width: 1280px;
   margin: 0px auto;
   color: var(--vt-c-text-2);
 }

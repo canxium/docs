@@ -1,6 +1,6 @@
 ---
 page: true
-title: Vue.js - The Progressive JavaScript Framework
+title: Canxium - Powering Crypto, Even Offline
 ---
 
 <script setup>

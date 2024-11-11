@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Kevin Artman",
+    "avatarPic": "https://a7b76a42.canxium.pages.dev/images/kevin.jpg",
+    "title": "Graphic Designer",
+    "company": "Canxium.org",
+    "projects": [
+      {
+        "label": "canxium/*",
+        "url": "https://www.github.com/canxium"
+      }
+    ],
+    "location": "France",
+    "languages": ["English", "French"],
+    "website": {},
+    "socials": {},
+    "sponsor": false
+  },
+  {
+    "name": "John Kerry",
+    "avatarPic": "https://a7b76a42.canxium.pages.dev/images/john.jpg",
+    "title": "Advisor",
+    "company": "Canxium.org",
+    "projects": [
+      {
+        "label": "canxium/*",
+        "url": "https://www.github.com/canxium"
+      }
+    ],
+    "location": "",
+    "languages": ["English"],
+    "website": {
+      "label": "Email",
+      "url": "john.kerry@canxium.org"
+    },
+    "socials": {},
+    "sponsor": false
+  }
+]
