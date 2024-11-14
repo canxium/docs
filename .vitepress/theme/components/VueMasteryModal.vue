@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue'
 
-const VIDEO_SOURCE = '/paper/abstract'
+const VIDEO_SOURCE = '/whitepaper/abstract'
 const showWhyVue = ref(false)
 
 watch(
@@ -19,7 +19,7 @@ watch(
     id="vuemastery-action"
     class="why-vue"
     @click="showWhyVue = true"
-    href="/paper/abstract"
+    href="/whitepaper/abstract"
   >
     <svg
       class="icon-play"

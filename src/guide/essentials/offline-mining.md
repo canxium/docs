@@ -4,4 +4,4 @@ Canxium’s Offline Mining is a groundbreaking feature designed to make cryptocu
 
 As of November 8, 2024. Three months after launch, a total of 1,586,887 secure mining transactions have been created by miners around the world, generating more than 12,273 new CAU coins supplied to the market: [Offline Mining Contract](https://scan.canxium.org/address/0x6c6331CA2BC039996E833479b7c13Cc62Ab5c6BA)
 
-To understand more about offline mining, its mechanisms, and how it works, please read more in the [Whitepaper](/paper/depth/pow.html) and [Technical](/paper/technical/pow.html)
+To understand more about offline mining, its mechanisms, and how it works, please read more in the [Whitepaper](/whitepaper/depth/pow.html) and [Technical](/whitepaper/technical/pow.html)

@@ -9,7 +9,7 @@ Unlike traditional models that rely on predetermined supply plans, Canxium empow
 In addition to its economic innovation, Canxium has revolutionized blockchain technology with its unique approach to mining. The platform is committed to building a more sustainable and decentralized future. One of its most distinguishing features is the innovative concept of offline mining — an entirely new idea within the cryptocurrency space.
 
 ## Canxium whitepaper
-Read the latest version of our whitepaper here: [Paper](/paper/abstract.html).
+Read the latest version of our whitepaper here: [Paper](/whitepaper/abstract.html).
 
 ## Why Canxium?
 
@@ -26,6 +26,27 @@ Broad Applicability: With features supporting DeFi, cross-border payments, and e
 Hybrid Consensus Model and Transition to PoS: Canxium operates with a hybrid model, initially using Proof of Work (PoW) but transitioning to a Proof of Stake (PoS) sidechain model with Offline Mining (PoW). This shift will enhance scalability and lower environmental impact by significantly reducing energy demands​.
 
 Overall, Canxium blockchain’s combination of demand-driven supply, offline mining, quality-controlled smart contracts, and a transition to PoS offers a stable, accessible, and innovative option for users and developers alike.
+
+| Feature                       | **Canxium PoW Coin**                                         | **Other PoW Coins (e.g., Bitcoin, Litecoin)**              |
+|-------------------------------|---------------------------------------------------------------|-------------------------------------------------------------|
+| **Offline Mining Support**    | Allows mining offline, promoting wider accessibility        | Requires online access for mining and transactions          |
+| **Energy Efficiency**         | Energy-conscious mining with optimized algorithms           | Often criticized for high energy consumption (especially Bitcoin) |
+| **Reward Adjustment**         | Dynamic adjustment based on network demand, offering flexibility | Fixed or scheduled reward halving, reducing rewards over time |
+| **Hardware Compatibility**    | Supports multiple PoW algorithms, works with diverse devices | Limited to specific hardware (e.g., Bitcoin uses ASICs)      |
+| **Mining Flexibility**        | Allows diverse mining setups, no reliance on mining pools   | Often dependent on mining pools, leading to centralization  |
+| **Network Resilience**        | Adaptable to a range of mining strategies, potentially more resilient to attacks | High hash power makes Bitcoin very secure but less flexible |
+| **Transaction Speed**         | Optimized for faster transactions with lower fees            | Generally slower (Bitcoin), with transaction fees based on congestion |
+| **Scalability**               | Designed to scale with network demand and diverse mining practices | Scalability often depends on protocol upgrades and Bitcoin's block size limit |
+| **Decentralization**          | More decentralized by removing the need for mining pools     | PoW coins often become centralized in mining pools          |
+| **Stability**                 | Anti-price volatility through stable mining costs            | High volatility due to fluctuating mining difficulty and rewards |
+
+| Feature                       | **CAU**                                         | **USDC, USDT, DAI (Stablecoins)**                          |
+|-------------------------------|---------------------------------------------------------------|-------------------------------------------------------------|
+| **Decentralization**          | Fully decentralized, no central authority                    | Centralized (USDC, USDT), with DAI being partially decentralized |
+| **Market Volatility**         | Higher volatility can lead to greater profit potential        | Stability limits profit-making opportunities due to pegged value |
+| **Security**                  | High security through mining and decentralized consensus    | Security tied to the issuer and collateral reserves         |
+| **Adoption**                  | Gaining adoption in crypto communities, for those looking for a reliable PoW coin | Already widely adopted, but limited to users seeking stability |
+| **Expansion Potential**       | Can expand with market demand due to stable mining costs and high rewards | Faces high risk with expansion, as they are pegged to fiat and may face issues with liquidity and collateral reserves |
 
 ## What is Canxium's consensus?
 

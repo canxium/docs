@@ -1,6 +1,6 @@
 # Dual Token System
 
-![alt text](../../paper/tokenomics/images/image.png)
+![alt text](../../whitepaper/tokenomics/images/image.png)
 
 Canxium introduces a unique dual-token system designed to optimize the functionality, rewards, and user experience within its ecosystem. The two tokens, **$CAU** and **$OFF**, each serve distinct and critical roles that support both the network's operational structure and its long-term sustainability.
 

@@ -12,4 +12,4 @@ By combining these consensus mechanisms, Canxium creates a stable, scalable, and
 
 The native coin, CAU, powers this ecosystem, facilitating transactions, staking, and network governance.
 
-For more info about Canxium's consensus, read our whitepaper: [Whitepaper](/paper/depth/summary)
+For more info about Canxium's consensus, read our whitepaper: [Whitepaper](/whitepaper/depth/summary)

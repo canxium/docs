@@ -22,5 +22,17 @@
     "socials": {
       "twitter": "odbashWizard"
     }
+  },
+  {
+    "name": "Lipa Vibes",
+    "avatarPic": "/images/partners/lipavibes.png",
+    "title": "Designer",
+    "company": "",
+    "projects": [],
+    "location": "N/A",
+    "languages": ["English"],
+    "socials": {
+      "twitter": "StockLipaVibes"
+    }
   }
 ]

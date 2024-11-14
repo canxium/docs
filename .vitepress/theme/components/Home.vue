@@ -20,6 +20,7 @@ onMounted(load)
     </p>
     <p class="actions">
       <VueMasteryModal />
+      <a class="setup" href="/guide/introduction#why-canxium">Why Canxium?</a>
       <a class="get-started" href="/guide/introduction.html">
         Get Started
         <svg
@@ -34,7 +35,6 @@ onMounted(load)
           />
         </svg>
       </a>
-      <a class="setup" href="/guide/rpc-nodes/prerequisites">Install</a>
       <a class="security" href="/guide/validator/prerequisites">
         Launch a Validator
         <svg

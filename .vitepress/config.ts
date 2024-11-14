@@ -38,7 +38,7 @@ const nav: ThemeConfig['nav'] = [
   },
   {
     text: 'Whitepaper',
-    link: '/paper/abstract'
+    link: '/whitepaper/abstract'
   },
   {
     text: 'Ecosystem',
@@ -211,13 +211,13 @@ export const sidebar: ThemeConfig['sidebar'] = {
       ]
     }
   ],
-  '/paper/': [
+  '/whitepaper/': [
     {
       text: 'Overview',
       items: [
-        { text: 'Abstract', link: '/paper/abstract' },
-        { text: 'Introduction', link: '/paper/introduction' },
-        { text: 'Problem Statement', link: '/paper/statement' }
+        { text: 'Abstract', link: '/whitepaper/abstract' },
+        { text: 'Introduction', link: '/whitepaper/introduction' },
+        { text: 'Problem Statement', link: '/whitepaper/statement' }
       ]
     },
     {
@@ -225,23 +225,23 @@ export const sidebar: ThemeConfig['sidebar'] = {
       items: [
         {
           text: 'Overview',
-          link: '/paper/objectives/overview'
+          link: '/whitepaper/objectives/overview'
         },
         {
           text: 'Suitable Supply Model',
-          link: '/paper/objectives/supply'
+          link: '/whitepaper/objectives/supply'
         },
         {
           text: 'Mitigate Mining Cost Volatility',
-          link: '/paper/objectives/mining'
+          link: '/whitepaper/objectives/mining'
         },
         {
           text: 'Stability and Reliability',
-          link: '/paper/objectives/stability'
+          link: '/whitepaper/objectives/stability'
         },
         {
           text: 'Accessibility and Usability',
-          link: '/paper/objectives/accessibility'
+          link: '/whitepaper/objectives/accessibility'
         },
       ]
     },
@@ -250,29 +250,29 @@ export const sidebar: ThemeConfig['sidebar'] = {
       items: [
         {
           text: 'Summary',
-          link: '/paper/depth/summary'
+          link: '/whitepaper/depth/summary'
         },
-        { text: 'Stabilize Mining Costs', link: '/paper/depth/stabilize' },
-        { text: 'Proof Off Work', link: '/paper/depth/pow' },
-        { text: 'Proof Of Demand', link: '/paper/depth/pod' },
-        { text: 'Proof Of Stake', link: '/paper/depth/pos' },
-        { text: 'High-Quality Smart Contract', link: '/paper/depth/contract' }
+        { text: 'Stabilize Mining Costs', link: '/whitepaper/depth/stabilize' },
+        { text: 'Proof Off Work', link: '/whitepaper/depth/pow' },
+        { text: 'Proof Of Demand', link: '/whitepaper/depth/pod' },
+        { text: 'Proof Of Stake', link: '/whitepaper/depth/pos' },
+        { text: 'High-Quality Smart Contract', link: '/whitepaper/depth/contract' }
       ]
     },
     {
       text: 'Technical Details',
       items: [
-        { text: 'Proof Off Work', link: '/paper/technical/pow' },
-        { text: 'Proof Of Demand', link: '/paper/technical/pod' },
-        { text: 'Proof Of Stake', link: '/paper/technical/pos' },
+        { text: 'Proof Off Work', link: '/whitepaper/technical/pow' },
+        { text: 'Proof Of Demand', link: '/whitepaper/technical/pod' },
+        { text: 'Proof Of Stake', link: '/whitepaper/technical/pos' },
       ]
     },
     {
       text: 'Extra Details',
       items: [
-        { text: 'Tokenomics', link: '/paper/tokenomics/tokenomics' },
-        { text: 'Use Cases', link: '/paper/usecases' },
-        { text: 'Roadmap', link: '/paper/roadmap' }
+        { text: 'Tokenomics', link: '/whitepaper/tokenomics/tokenomics' },
+        { text: 'Use Cases', link: '/whitepaper/usecases' },
+        { text: 'Roadmap', link: '/whitepaper/roadmap' }
       ]
     }
   ],
