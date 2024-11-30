@@ -1,10 +1,25 @@
 <script setup lang="ts">
-import { onMounted } from 'vue'
+import { ref, onMounted } from 'vue'
 import SiteMap from './SiteMap.vue'
 import { load } from './sponsors'
 import VueMasteryModal from './VueMasteryModal.vue'
 
-onMounted(load)
+import PartnerHero from '../../../src/partners/components/PartnerHero.vue'
+import PartnerCard from '../../../src/partners/components/PartnerCard.vue'
+import PartnerList from '../../../src/partners/components/PartnerList.vue'
+import PartnerJoin from '../../../src/partners/components/PartnerJoin.vue'
+import PageShowcaseListLayout from '@theme/components/PageShowcaseListLayout.vue'
+import data from '../../../src/partners/partners.json'
+import { Partner } from '../../../src/partners/components/type'
+
+const spotlighted = ref<Partner | null>(null)
+
+onMounted(() => {
+  const plat = (data as Partner[]).filter((d) => d.platinum)
+  spotlighted.value = plat[Math.floor(Math.random() * plat.length)]
+  load()
+})
+
 </script>
 
 <template>
@@ -94,7 +109,15 @@ onMounted(load)
       </p>
     </div>
   </section>
-
+  <section>
+    <PageShowcaseListLayout
+      spotlightTitle="Partner Spotlight"
+    >
+      <template #spotlight>
+        <PartnerCard v-if="spotlighted" hero :data="spotlighted" />
+      </template>
+    </PageShowcaseListLayout>
+  </section>
   <SiteMap />
   <!-- <NewsLetter /> -->
 </template>

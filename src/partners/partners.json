@@ -35,7 +35,7 @@
     },
     "contact": "",
     "hiring": "",
-    "platinum": true
+    "platinum": false
   },
   {
     "name": "Geckoterminal",
@@ -55,5 +55,43 @@
     "contact": "",
     "hiring": "",
     "platinum": true
+  },
+  {
+    "name": "Coinex",
+    "logo": "coinex.svg",
+    "flipLogo": true,
+    "intro": "A very PoW-friendly exchange, with reasonable listing policies and enthusiasm for supporting young projects. CoinEx was founded in 2017, and at the heart of our mission lies a steadfast commitment to leveraging the transformative power of blockchain technology, guided by our “user first” brand ethos.",
+    "description": [
+      "Our core team of CoinEx Ecosystem consists of members from global leading Internet and financial enterprises, including many of the earliest practitioners and investors in the cryptocurrency industry, demonstrating our technological expertise. The CoinEx Ecosystem is at the forefront of shaping the Web3 landscape, establishing key infrastructures that facilitate the circulation, application, and advancement of blockchain technology."
+    ],
+    "proficiencies": ["Exchange"],
+    "region": ["Singapore"],
+    "location": ["Central Region, Singapore"],
+    "website": {
+      "text": "coinex.com",
+      "url": "https://coinex.com"
+    },
+    "contact": "",
+    "hiring": "",
+    "platinum": true
+  },
+  {
+    "name": "Dojima",
+    "logo": "dojima.svg",
+    "flipLogo": true,
+    "intro": "Dojima Network is an omnichain Layer 1 - A platform that seamlessly integrates the entire Web3 ecosystem onto one unified layer, empowering developers to craft groundbreaking applications. An omnichain blockchain aids in interoperability for dApps across multiple chains, helping transfer of assets and messages.",
+    "description": [
+      "Dojima Network is an omnichain Layer 1 - A platform that seamlessly integrates the entire Web3 ecosystem onto one unified layer, empowering developers to craft groundbreaking applications. An omnichain blockchain aids in interoperability for dApps across multiple chains, helping transfer of assets and messages."
+    ],
+    "proficiencies": ["blockchain"],
+    "region": ["India"],
+    "location": ["India"],
+    "website": {
+      "text": "dojima.network",
+      "url": "https://www.dojima.network/"
+    },
+    "contact": "",
+    "hiring": "",
+    "platinum": false
   }
 ]

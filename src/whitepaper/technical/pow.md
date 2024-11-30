@@ -6,7 +6,7 @@
 - Version: v2.5
   :::
   
-## Proof Off Work (Offline Mining) {#pow}
+## Offline Mining {#pow}
 
 The Canxium blockchain launched with a Proof of Work (PoW) consensus mechanism, with plans to transition to Proof of Stake (PoS) in July 2024. Initially, blocks will be secured and finalized using the Ethash algorithm, and mining will serve as the sole method for generating new Canxium coins. However, even after the switch to PoS, coin generation will continue through a process called offline mining.
 
@@ -107,6 +107,6 @@ In the Ethash algorithm, dataset generation is a foundational step. For traditio
 
 e. Mining Process:
 
-In the mining phase, miners search for a valid Proof of Work (PoW) nonce that satisfies the difficulty requirements. Once a valid nonce is found, the mining transaction is broadcast to the Canxium blockchain. Validators then verify and confirm this transaction, sealing it into the next block. As a result, new CAU coins are generated as mining rewards. These rewards are distributed among offline miners, validators, and Canxium’s foundation funds, creating an inclusive reward-sharing model that supports ecosystem growth and sustainability.
+In the mining phase, miners search for a valid Proof of Work (PoW) nonce that satisfies the difficulty requirements. Once a valid nonce is found, the mining transaction is broadcast to the Canxium blockchain. Validators then verify and confirm this transaction, sealing it into the next block. As a result, new CAU coins are generated as mining rewards. These rewards are distributed among offline miners, validators, and Canxium Labs, creating an inclusive reward-sharing model that supports ecosystem growth and sustainability.
 
 The seamless integration of offline mining into Canxium’s blockchain reflects our commitment to inclusivity, environmental responsibility, and fostering decentralized participation. By enabling miners to operate independently of continuous network connectivity, Canxium opens the door for a broader range of participants. This approach not only minimizes energy consumption but also aligns with our mission to create a sustainable and accessible blockchain ecosystem that empowers all contributors.

@@ -15,8 +15,13 @@ const nav: ThemeConfig['nav'] = [
       { text: 'Wallet', link: '/guide/quick-start#set-up-a-wallet' },
       { text: 'Quick Start', link: '/guide/quick-start' },
       { text: 'Glossary', link: '/guide/essentials/glossary/' },
-      { text: 'Security audits', link: '/guide/essentials/audits/' },
+      { text: 'Security Audits', link: '/guide/essentials/audits/' },
       { text: 'Offline Mining', link: '/guide/essentials/offline-mining/' },
+      { text: 'How To Mine $CAU', link: '/guide/essentials/how-to-mine/' },
+      {
+        text: 'Tokenomics',
+        link: '/whitepaper/tokenomics/tokenomics'
+      },
       {
         text: 'Lighthouse Docs',
         link: 'https://lighthouse-book.sigmaprime.io/intro.html'
@@ -49,6 +54,7 @@ const nav: ThemeConfig['nav'] = [
         items: [
           { text: 'Partners', link: '/partners/' },
           { text: 'App', link: 'https://app.canxium.org/' },
+          { text: 'Bridge', link: 'https://app.canxium.org/#/bridge' },
           { text: 'Scan', link: 'https://scan.canxium.org/' },
           { text: 'Testnet Scan', link: 'https://testnet-scan.canxium.net/' },
           { text: 'Faucet', link: 'https://faucet.canxium.org/' },
@@ -108,9 +114,10 @@ const nav: ThemeConfig['nav'] = [
       { text: 'FAQ', link: '/about/faq' },
       { text: 'Team', link: '/about/team' },
       { text: 'Releases', link: '/about/releases' },
-      { text: 'Code of Conduct', link: '/about/coc' },
       { text: 'Privacy Policy', link: '/privacy' },
       { text: 'Terms of Service', link: '/tos' },
+      { text: 'Code of Conduct', link: '/about/coc' },
+      { text: 'Contact Us', link: '/about/contact' },
     ]
   },
   // {
@@ -160,7 +167,7 @@ export const sidebar: ThemeConfig['sidebar'] = {
           link: '/guide/essentials/glossary'
         },
         {
-          text: 'Canxium consensus',
+          text: 'Canxium Consensus',
           link: '/guide/essentials/consensus'
         },
         {
@@ -169,22 +176,23 @@ export const sidebar: ThemeConfig['sidebar'] = {
         },
         {
           text: 'Tokenomics',
-          link: '/guide/essentials/tokenomics'
+          link: '/whitepaper/tokenomics/tokenomics'
         },
-        { text: 'Nodes and networks', link: '/guide/essentials/nodes' },
+        { text: 'Nodes and Networks', link: '/guide/essentials/nodes' },
         {
           text: 'Dex Contracts',
           link: '/guide/essentials/dex'
         },
         {
-          text: 'Security audits',
+          text: 'Security Audits',
           link: '/guide/essentials/audits'
         },
         {
           text: 'Community',
           link: '/guide/essentials/community'
         },
-        { text: 'Offline Mining', link: '/guide/essentials/offline-mining' }
+        { text: 'Offline Mining', link: '/guide/essentials/offline-mining' },
+        { text: 'How To Mine $CAU', link: '/guide/essentials/how-to-mine' }
       ]
     },
     {
@@ -253,24 +261,27 @@ export const sidebar: ThemeConfig['sidebar'] = {
           link: '/whitepaper/depth/summary'
         },
         { text: 'Stabilize Mining Costs', link: '/whitepaper/depth/stabilize' },
-        { text: 'Proof Off Work', link: '/whitepaper/depth/pow' },
+        { text: 'Offline Mining', link: '/whitepaper/depth/pow' },
         { text: 'Proof Of Demand', link: '/whitepaper/depth/pod' },
         { text: 'Proof Of Stake', link: '/whitepaper/depth/pos' },
+        { text: 'Merge Mining', link: '/whitepaper/depth/merge' },
         { text: 'High-Quality Smart Contract', link: '/whitepaper/depth/contract' }
       ]
     },
     {
       text: 'Technical Details',
       items: [
-        { text: 'Proof Off Work', link: '/whitepaper/technical/pow' },
+        { text: 'Offline Mining', link: '/whitepaper/technical/pow' },
         { text: 'Proof Of Demand', link: '/whitepaper/technical/pod' },
         { text: 'Proof Of Stake', link: '/whitepaper/technical/pos' },
+        { text: 'Merge Mining', link: '/whitepaper/technical/merge' },
       ]
     },
     {
       text: 'Extra Details',
       items: [
         { text: 'Tokenomics', link: '/whitepaper/tokenomics/tokenomics' },
+        { text: 'Merge Mining Rewards', link: '/whitepaper/tokenomics/merge_rewards' },
         { text: 'Use Cases', link: '/whitepaper/usecases' },
         { text: 'Roadmap', link: '/whitepaper/roadmap' }
       ]
@@ -345,13 +356,6 @@ export default defineConfigWithTheme<ThemeConfig>({
     ],
     ['meta', { name: 'twitter:site', content: '@vuejs' }],
     ['meta', { name: 'twitter:card', content: 'summary' }],
-    [
-      'link',
-      {
-        rel: 'preconnect',
-        href: 'https://sponsors.vuejs.org'
-      }
-    ],
     [
       'script',
       {},

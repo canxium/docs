@@ -6,7 +6,7 @@
 - Version: v2.5
   :::
   
-## Proof Off Work (Offline Mining) {#pow}
+## Offline Mining {#pow}
 
 Canxium’s Offline Mining is a groundbreaking feature designed to make cryptocurrency mining accessible to individuals in regions with limited or intermittent internet connectivity. Unlike traditional mining, which requires continuous online access, Offline Mining empowers users to participate in the Canxium blockchain network by leveraging local processing capabilities without needing a constant internet connection. This innovative approach is aimed at democratizing access to mining, expanding global participation, and promoting financial inclusion in underserved areas.
 

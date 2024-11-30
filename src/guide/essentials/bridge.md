@@ -2,6 +2,10 @@
 
 The **Canxium Bridge**, available at [app.canxium.org/#/bridge](https://app.canxium.org/#/bridge), is designed to securely transfer assets between the Canxium and Ethereum networks. Building a secure bridge between blockchains is challenging, as numerous hacks have targeted other bridges, leading to billions of dollars in losses. Canxium introduces a multi-layered security solution that aims to be the safest bridge available today.
 
+:::info
+Bridge is still in the early stages of its development roadmap, operating in a centralized manner and managed by the Canxium Labs. In the future, it will transition to being fully decentralized under the governance of validators.
+:::
+
 ### Key Security Features of Canxium Bridge
 
 1. **Multi-Tiered Permission Structure** 

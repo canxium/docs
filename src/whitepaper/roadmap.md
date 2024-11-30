@@ -34,7 +34,7 @@ More than a year has passed with many difficulties and events. Nevertheless, Can
 
 At the same time, we have successfully implemented all three consensus algorithms in a single blockchain, which is unprecedented. No project has accomplished this: **Proof of Work**, **Proof of Demand**, and **Proof of Stake**.
 
-Thus, we have successfully completed our first mission beyond expectations. It is time for us to take another step forward and present the next vision for Canxium, focusing on building a **complete ecosystem** and moving toward **full decentralization** of this blockchain. The Canxium Foundation will become an organization aimed at realizing ideas & missions initiated and approved by the community of CAU stakeholders. This is the next mission and vision we are striving for until we achieve it.
+Thus, we have successfully completed our first mission beyond expectations. It is time for us to take another step forward and present the next vision for Canxium, focusing on building a **complete ecosystem** and moving toward **full decentralization** of this blockchain. The Canxium Labs will become an organization aimed at realizing ideas & missions initiated and approved by the community of CAU stakeholders. This is the next mission and vision we are striving for until we achieve it.
 
 ---
 

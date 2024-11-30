@@ -21,7 +21,7 @@ const props = defineProps<{
     </div>
 
     <!-- Featured Section -->
-    <div class="showcase-layout__featured">
+    <div v-if="props.featuredTitle" class="showcase-layout__featured">
       <!-- Optional Actions Section -->
       <div v-if="$slots.actions" class="featured-actions">
         <slot name="actions"></slot>
