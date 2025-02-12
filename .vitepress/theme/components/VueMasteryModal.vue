@@ -35,59 +35,6 @@ watch(
     </svg>
     Whitepaper
   </a>
-  <!-- <Teleport v-if="showWhyVue" to="body">
-    <div
-      @click="showWhyVue = false"
-      class="vuemastery-modal-mask"
-    >
-      <div class="vuemastery-modal-wrapper">
-        <div class="vuemastery-modal-container">
-          <div class="vuemastery-modal-content">
-            <div class="vuemastery-video-space">
-              <iframe
-                :src="VIDEO_SOURCE"
-                style="
-                  height: 100%;
-                  left: 0;
-                  position: absolute;
-                  top: 0;
-                  width: 100%;
-                  border-radius: 6px;
-                "
-                frameborder="0"
-                webkitallowfullscreen
-                mozallowfullscreen
-                allowfullscreen
-                allow="autoplay"
-              ></iframe>
-            </div>
-          </div>
-
-          <div class="vuemastery-modal-footer">
-            <p class="vuemastery-modal-footer-text">
-              Video by
-              <a
-                href="https://www.vuemastery.com"
-                target="_blank"
-                rel="sponsored noopener"
-                title="Vue.js Courses on Vue Mastery"
-              >
-                Vue Mastery.</a
-              > Watch Vue Mastery’s free
-              <a
-                href="https://www.vuemastery.com/courses/intro-to-vue-3/intro-to-vue3"
-                target="_blank"
-                rel="sponsored noopener"
-                title="Vue.js Courses on Vue Mastery"
-              >
-                Intro to Vue course.</a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </Teleport> -->
 </template>
 
 <style scoped>
@@ -189,7 +136,7 @@ watch(
   #vuemastery-action {
     display: block;
     margin: 0px auto;
-    width: 150px;
+    width: 160px;
   }
 }
 </style>

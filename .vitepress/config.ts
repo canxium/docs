@@ -18,6 +18,7 @@ const nav: ThemeConfig['nav'] = [
       { text: 'Security Audits', link: '/guide/essentials/audits/' },
       { text: 'Offline Mining', link: '/guide/essentials/offline-mining/' },
       { text: 'How To Mine $CAU', link: '/guide/essentials/how-to-mine/' },
+      { text: 'How To Merge Mining', link: '/guide/essentials/how-to-merge-mining' },
       {
         text: 'Tokenomics',
         link: '/whitepaper/tokenomics/tokenomics'
@@ -192,7 +193,8 @@ export const sidebar: ThemeConfig['sidebar'] = {
           link: '/guide/essentials/community'
         },
         { text: 'Offline Mining', link: '/guide/essentials/offline-mining' },
-        { text: 'How To Mine $CAU', link: '/guide/essentials/how-to-mine' }
+        { text: 'How To Mine $CAU', link: '/guide/essentials/how-to-mine' },
+        { text: 'How To Merge Mining', link: '/guide/essentials/how-to-merge-mining' }
       ]
     },
     {
