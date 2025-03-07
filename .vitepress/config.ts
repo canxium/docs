@@ -16,9 +16,9 @@ const nav: ThemeConfig['nav'] = [
       { text: 'Quick Start', link: '/guide/quick-start' },
       { text: 'Glossary', link: '/guide/essentials/glossary/' },
       { text: 'Security Audits', link: '/guide/essentials/audits/' },
-      { text: 'Offline Mining', link: '/guide/essentials/offline-mining/' },
-      { text: 'How To Mine $CAU', link: '/guide/essentials/how-to-mine/' },
-      { text: 'How To Merge Mining', link: '/guide/essentials/how-to-merge-mining' },
+      { text: 'Retained PoW Mining', link: '/guide/essentials/retained-pow-mining/' },
+      { text: 'How To Mine CAU: Independent', link: '/guide/essentials/how-to-mine/' },
+      { text: 'How To Mine CAU: Cross Chain', link: '/guide/essentials/how-to-cross-chain-mining' },
       {
         text: 'Tokenomics',
         link: '/whitepaper/tokenomics/tokenomics'
@@ -54,6 +54,7 @@ const nav: ThemeConfig['nav'] = [
         text: 'Resources',
         items: [
           { text: 'Partners', link: '/partners/' },
+          { text: 'Validators', link: 'https://epoch.canxium.org/' },
           { text: 'App', link: 'https://app.canxium.org/' },
           { text: 'Bridge', link: 'https://app.canxium.org/#/bridge' },
           { text: 'Scan', link: 'https://scan.canxium.org/' },
@@ -63,6 +64,7 @@ const nav: ThemeConfig['nav'] = [
           { text: 'Coinmarketcap', link: 'https://coinmarketcap.com/currencies/canxium/' },
           { text: 'Livecoinwatch', link: 'https://www.livecoinwatch.com/price/Canxium-CAU' },
           { text: 'Geckoterminal', link: 'https://www.geckoterminal.com/canxium/pools' },
+          { text: 'Brand Toolkit', link: 'https://drive.google.com/file/d/12H7FGSuJL39HVCMuUYB0il9nsuyFb8ae/view?usp=sharing' },
         ]
       },
       {
@@ -77,7 +79,7 @@ const nav: ThemeConfig['nav'] = [
         text: 'Video Courses',
         items: [
           {
-            text: 'Offline Mining',
+            text: 'Retained PoW Mining (formerly Offline Mining)',
             link: 'https://www.youtube.com/watch?v=r9AapliszqA'
           },
           {
@@ -192,9 +194,9 @@ export const sidebar: ThemeConfig['sidebar'] = {
           text: 'Community',
           link: '/guide/essentials/community'
         },
-        { text: 'Offline Mining', link: '/guide/essentials/offline-mining' },
-        { text: 'How To Mine $CAU', link: '/guide/essentials/how-to-mine' },
-        { text: 'How To Merge Mining', link: '/guide/essentials/how-to-merge-mining' }
+        { text: 'Retained PoW Mining', link: '/guide/essentials/retained-pow-mining' },
+        { text: 'CAU Mining: Independent', link: '/guide/essentials/how-to-mine' },
+        { text: 'CAU Mining: Cross-Chain', link: '/guide/essentials/how-to-cross-chain-mining' }
       ]
     },
     {
@@ -263,27 +265,27 @@ export const sidebar: ThemeConfig['sidebar'] = {
           link: '/whitepaper/depth/summary'
         },
         { text: 'Stabilize Mining Costs', link: '/whitepaper/depth/stabilize' },
-        { text: 'Offline Mining', link: '/whitepaper/depth/pow' },
+        { text: 'Retained Proof of Work', link: '/whitepaper/depth/retained_pow' },
         { text: 'Proof Of Demand', link: '/whitepaper/depth/pod' },
         { text: 'Proof Of Stake', link: '/whitepaper/depth/pos' },
-        { text: 'Merge Mining', link: '/whitepaper/depth/merge' },
-        { text: 'High-Quality Smart Contract', link: '/whitepaper/depth/contract' }
+        { text: 'Smart Contract', link: '/whitepaper/depth/contract' }
       ]
     },
     {
       text: 'Technical Details',
       items: [
-        { text: 'Offline Mining', link: '/whitepaper/technical/pow' },
+        { text: 'Independent Retained PoW', link: '/whitepaper/technical/independent_pow' },
+        { text: 'Cross-Chain Retained PoW', link: '/whitepaper/technical/cross_chain_pow' },
         { text: 'Proof Of Demand', link: '/whitepaper/technical/pod' },
         { text: 'Proof Of Stake', link: '/whitepaper/technical/pos' },
-        { text: 'Merge Mining', link: '/whitepaper/technical/merge' },
       ]
     },
     {
       text: 'Extra Details',
       items: [
         { text: 'Tokenomics', link: '/whitepaper/tokenomics/tokenomics' },
-        { text: 'Merge Mining Rewards', link: '/whitepaper/tokenomics/merge_rewards' },
+        { text: 'Independent Mining Rewards', link: '/whitepaper/tokenomics/independent_mining_rewards' },
+        { text: 'Cross-Chain Mining Rewards', link: '/whitepaper/tokenomics/cross_chain_mining_rewards' },
         { text: 'Use Cases', link: '/whitepaper/usecases' },
         { text: 'Roadmap', link: '/whitepaper/roadmap' }
       ]

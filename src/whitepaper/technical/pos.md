@@ -3,11 +3,11 @@
 :::info You are reading the latest version of Canxium Whitepaper
 
 - Updated on **Nov 6, 2024**.
-- Version: v2.5
+- Version: v2.6
   :::
   
 ## Canxium Proof of Stake (PoS) Reward Structure:
-Here’s a comprehensive breakdown of the staking rewards and offline mining rewards within the Canxium blockchain, considering the important points:
+Here’s a comprehensive breakdown of the staking rewards and Retained PoW mining rewards within the Canxium blockchain, considering the important points:
 
 ### Staking Rewards
 
@@ -22,7 +22,7 @@ where *base_reward_factor* is 512, *base_rewards_per_epoch* is 4 and sum(active 
 ​
 <strong>Penalty Calculation:</strong>
 
-If the validator is inactive (offline), they will incur a penalty based on their effective balance and the *InactivityPenaltyQuotientBellatrix*  is 4,194,304, making penalties accumulate faster than Ethereum’s value
+If the validator is inactive (Offline), they will incur a penalty based on their effective balance and the *InactivityPenaltyQuotientBellatrix*  is 4,194,304, making penalties accumulate faster than Ethereum’s value
 
 <strong>Total Staking Reward (after penalty and cap):</strong>
 
@@ -38,13 +38,13 @@ For example, if a validator has an effective balance of 310 CAU, and their pre-p
 
 After applying penalties, the net staking reward will never exceed 320 CAU per validator. This cap applies only to the staking reward, and it ensures a limit on inflationary staking payouts.
 
-<strong>Offline Mining Rewards (Separate and Uncapped):</strong>
+<strong>Retained PoW Mining Rewards (Separate and Uncapped):</strong>
 
-Validators in Canxium also validate offline mining transactions, which are separate from staking rewards. They receive 15% of the total mining rewards generated from these offline transactions. These rewards are not capped by the 320 CAU cap.
+Validators in Canxium also validate Retained PoW mining transactions, which are separate from staking rewards. They receive 15% of the total mining rewards generated from these Retained PoW transactions. These rewards are not capped by the 320 CAU cap.
 
-```Offline Mining Reward = 0.15 × Total Mining Rewards of Validated Offline Transactions```
+```Validator Reward = 0.15 × Total Mining Rewards of Validated Retained PoW Transactions```
 
-This means validators can earn additional rewards from offline transaction validation without any cap, further incentivizing them to actively participate in the network.
+This means validators can earn additional rewards from Retained PoW transaction validation without any cap, further incentivizing them to actively participate in the network.
 
 <strong>Final Total Reward Calculation per Validator:</strong>
 
@@ -52,11 +52,11 @@ The final total reward a validator receives in Canxium consists of:
 
 Net Staking Reward: Calculated based on the staking reward formula, capped at 320 CAU after applying any penalties.
 
-Offline Mining Reward: Earned from validating offline mining transactions, with no cap.
+Retained PoW Mining Reward: Earned from validating Retained PoW mining transactions, with no cap.
 
 Thus, the total reward per validator for a given block is:
 
-```Total Validator Reward = Net Staking Reward + Offline Mining Reward```
+```Total Validator Reward = Net Staking Reward + Retained PoW Mining Reward```
 
 ### Example Calculation
 Assumptions:
@@ -65,7 +65,7 @@ Effective Balance of Validator: 310 CAU
 
 Base Reward (before penalty): 400 CAU
 
-Offline Mining Reward: 100 CAU
+Retained PoW Mining Reward: 100 CAU
 
 Penalty for Inactivity: 50 CAU
 ```
@@ -87,7 +87,7 @@ The validator’s total staking reward must not exceed 320 CAU (due to the effec
 Final Total Reward for Validator:
 ```
 Net Staking Reward = 10 CAU
-Offline Mining Reward = 100 CAU
+Retained PoW Mining Reward = 100 CAU
 ```
 
 ```Total Validator Reward = 10 CAU (Staking) + 100 CAU (Offline Mining) = 110 CAU```
@@ -96,8 +96,8 @@ Offline Mining Reward = 100 CAU
 
 Staking Rewards are calculated using a formula similar to Ethereum's, but adjusted with Canxium’s parameters. After penalties, the net staking reward is capped at 320 CAU for each validator, ensuring no excessive rewards.
 
-Offline Mining Rewards are paid separately and are not capped, allowing validators to earn beyond the staking reward cap.
+Retained PoW Mining Rewards are paid separately and are not capped, allowing validators to earn beyond the staking reward cap.
 
-The total reward a validator receives is the sum of the net staking reward (capped at 320 CAU) and the full offline mining reward, ensuring a balanced and incentivized system for validators.
+The total reward a validator receives is the sum of the net staking reward (capped at 320 CAU) and the full Retained PoW mining reward, ensuring a balanced and incentivized system for validators.
 
-This structure supports a sustainable reward system, where validators are incentivized both for staking and for validating offline transactions, while maintaining control over inflation with the 320 CAU cap on staking rewards.
+This structure supports a sustainable reward system, where validators are incentivized both for staking and for validating Retained PoW transactions, while maintaining control over inflation with the 320 CAU cap on staking rewards.

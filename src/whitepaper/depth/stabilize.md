@@ -3,7 +3,7 @@
 :::info You are reading the latest version of Canxium Whitepaper
 
 - Updated on **Nov 6, 2024**.
-- Version: v2.5
+- Version: v2.6
   :::
   
 ## Stable Mining Costs {#stable}

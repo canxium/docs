@@ -1,7 +1,7 @@
-# How to Mine Canxium Using Offline Mining Protocol
+# Independent Retained PoW Mining Protocol
 
-Canxium introduces an innovative offline mining protocol that allows miners to operate without continuous internet connectivity.
-Mining Canxium through its "offline mining" method involves creating special mining transactions rather than blocks. This unique approach eliminates the dependency on continuous internet connectivity, allowing miners to operate independently from centralized pools or constant network interaction. Here's how the offline mining process works:
+Canxium introduces an innovative Retained PoW mining protocol that allows miners to operate without continuous internet connectivity.
+Mining Canxium through its "Retained PoW mining" method involves creating special mining transactions rather than blocks. This unique approach eliminates the dependency on continuous internet connectivity, allowing miners to operate independently from centralized pools or constant network interaction. Here's how the Retained PoW mining process works:
 
 Here's how you can start:
 
@@ -22,21 +22,21 @@ Here's how you can start:
 - If your transaction is validated, you'll receive mining rewards in Canxium coins ($CAU).
 - The rewards are dynamically adjusted based on your transaction's difficulty.
 
-### 5. Key Advantages of Offline Mining
+### 5. Key Advantages of Retained PoW Mining
 - **Independence**: Miners operate without dependency on constant internet connectivity.
 - **Sustainability**: Energy-efficient mining with better resource utilization.
 - **Hardware Flexibility**: Supports multiple PoW algorithms for broader hardware compatibility.
 
 # Mining Canxium: Pool vs. Independent Operation
 
-Canxium's offline mining protocol ensures **fair mining**, allowing miners to solve proof-of-work challenges independently and submit results without continuous internet connectivity. Here are your two options for mining Canxium:
+Canxium's Retained PoW mining protocol ensures **fair mining**, allowing miners to solve proof-of-work challenges independently and submit results without continuous internet connectivity. Here are your two options for mining Canxium:
 
 :::warning
-When using a 3rd pool in Canxium's offline mining protocol, the mining reward will generally be less than mining independently
+When using a 3rd pool in Canxium's Retained PoW mining protocol, the mining reward will generally be less than mining independently
 :::
 
-## 1. Join a Pool Supporting Offline Mining
-- **Fair Mining Principle**: Pools in Canxium’s offline protocol do not combine hashing power. Each miner operates independently and submits their individual proof-of-work solutions.
+## 1. Join a Pool Supporting Retained PoW Mining
+- **Fair Mining Principle**: Pools in Canxium’s Retained PoW protocol do not combine hashing power. Each miner operates independently and submits their individual proof-of-work solutions.
 - **Role of the Pool**:
   - Acts as a service provider for transaction validation and submission.
   - Offers infrastructure to miners who prefer not to handle direct network interactions.
@@ -55,7 +55,7 @@ Currently, [GTPool](https://gtpool.io/) supports this protocol, simply connect y
   - Adequate hardware for solving proof-of-work challenges using Canxium's supported algorithms.
 - **Benefits**:
   - Maximum autonomy and reward retention.
-  - Aligns with the decentralized philosophy of offline mining.
+  - Aligns with the decentralized philosophy of Retained PoW mining.
 
 You have to start a pool by yourself using this Docker Image: [Open-Canxium-Pool](https://hub.docker.com/r/canxium/open-canxium-pool)
 

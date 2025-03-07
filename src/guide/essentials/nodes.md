@@ -44,7 +44,7 @@ Every network's execution layer works with (and only with) its corresponding "pa
 No. Although this is possible before, but now, all Canxium network participants will need to run both an execution node and a beacon node.
 
 **What happened to miners?** <br/>
-Block mining traditionally relies on a proof-of-work consensus mechanism. However, Canxium has now transitioned to a proof-of-stake consensus, replacing traditional miners with validators responsible for verifying and maintaining the blockchain. Canxium’s miners will now operate through its innovative Offline Mining feature.
+Block mining traditionally relies on a proof-of-work consensus mechanism. However, Canxium has now transitioned to a proof-of-stake consensus, replacing traditional miners with validators responsible for verifying and maintaining the blockchain. Canxium’s miners will now operate through its innovative Retained PoW Mining feature.
 
 **Where do slashers come into play?** <br/>
 Slashers, like validators, use specialized pieces of consensus-layer client software to fulfill a critical responsibility for the Canxium network. Slashers attempt to detect and punish malicious validators. Learn more by reading our [Slasher documentation](https://docs.prylabs.network/docs/prysm-usage/slasher).

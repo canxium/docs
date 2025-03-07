@@ -59,7 +59,7 @@ git clone https://github.com/canxium/go-canxium.git
 
 sudo apt install build-essential -y
 
-cd go-canxium/ && git checkout v0.1.3
+cd go-canxium/ && git checkout v0.3.3
 
 make canxium
 

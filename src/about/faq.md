@@ -25,12 +25,12 @@ Canxium also allows miners to operate entirely offline by creating special minin
 Individuals, businesses, and developers looking for a secure, decentralized platform for transactions and data exchange can use Canxium Blockchain.
 
 **5. Is Canxium Blockchain environmentally friendly?**  
-Canxium aims to be environmentally friendly by introducing innovative approaches like offline mining and proof of demand. Here’s how each of these mechanisms contributes to its sustainability goals:
+Canxium aims to be environmentally friendly by introducing innovative approaches like Retained PoW mining and proof of demand. Here’s how each of these mechanisms contributes to its sustainability goals:
 
-- **Offline Mining**
-   - **Reduced Energy Usage:** Traditional mining requires constant online connectivity and high computational power, which consumes large amounts of energy. Canxium's offline mining allows miners to conduct computations without staying connected to the network constantly, reducing continuous energy demand.
-   - **Specialized Mining Transactions:** By allowing miners to operate offline through special transactions, Canxium minimizes the need for large mining setups, thus lowering the overall energy footprint of the network.
-   - **Flexible Mining Algorithms:** Using algorithms like Ethash and SHA-256 in a way that’s optimized for offline processes allows Canxium to maximize efficiency and reduce waste.
+- **Retained PoW Mining**
+   - **Reduced Energy Usage:** Traditional mining requires constant online connectivity and high computational power, which consumes large amounts of energy. Canxium's Retained PoW mining allows miners to conduct computations without staying connected to the network constantly, reducing continuous energy demand.
+   - **Specialized Mining Transactions:** By allowing miners to operate through special transactions, Canxium minimizes the need for large mining setups, thus lowering the overall energy footprint of the network.
+   - **Flexible Mining Algorithms:** Using algorithms like Ethash and SHA-256 in a way that’s optimized for mining processes allows Canxium to maximize efficiency and reduce waste.
 
 - **Proof of Demand**
    - **Supply Control by Market Needs:** Instead of constantly issuing new tokens, Canxium’s coin supply is influenced by actual market demand. This reduces unnecessary token production, which in turn minimizes the computational work and resources required.

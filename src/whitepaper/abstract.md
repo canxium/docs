@@ -3,7 +3,7 @@
 :::info You are reading the latest version of Canxium Whitepaper
 
 - Updated on **Nov 6, 2024**.
-- Version: v2.5
+- Version: v2.6
   :::
 
 ## Abstract {#abstract}
@@ -12,4 +12,4 @@ Canxium is a groundbreaking blockchain platform that introduces a unique economi
 
 Unlike traditional models that rely on predetermined supply plans, Canxium empowers market forces to dictate the availability and value of its coins. This approach creates a more adaptable ecosystem, aligning the blockchain’s performance with the fluctuations of the market.
 
-In addition to its economic innovation, Canxium has revolutionized blockchain technology with its unique approach to mining. The platform is committed to building a more sustainable and decentralized future. One of its most distinguishing features is the innovative concept of offline mining — an entirely new idea within the cryptocurrency space.
+In addition to its economic innovation, Canxium has revolutionized blockchain technology with its unique approach to mining. The platform is committed to building a more sustainable and decentralized future. One of its most distinguishing features is the innovative concept of Retained Proof-of-Work (RdPoW) — an entirely new idea within the cryptocurrency space. RdPoW allows miners to generate proof-of-work and submit it at their discretion, enhancing flexibility, efficiency, and decentralization. This PoW can be a standalone proof, or a proof of work from another blockchain.

@@ -1,37 +1,20 @@
 [
   {
-    "name": "John Wick",
-    "avatarPic": "https://a7b76a42.canxium.pages.dev/images/wick.png",
-    "title": "Marketing Lead",
-    "company": "",
-    "companyLink": "",
-    "projects": [],
+    "name": "Kevin Artman",
+    "avatarPic": "https://a7b76a42.canxium.pages.dev/images/kevin.jpg",
+    "title": "Graphic Designer",
+    "company": "Canxium.org",
+    "projects": [
+      {
+        "label": "canxium/*",
+        "url": "https://www.github.com/canxium"
+      }
+    ],
     "location": "France",
     "languages": ["English", "French"],
-    "website": {
-      "label": "Twitter.com",
-      "url": "https://twitter.com/John_wiiic"
-    },
-    "socials": {
-      "twitter": "John_wiiic"
-    }
-  },
-  {
-    "name": "Talha Tariq",
-    "avatarPic": "https://3fe419cb.canxium.pages.dev/images/talha.jpg",
-    "title": "Writer",
-    "company": "",
-    "companyLink": "",
-    "projects": [],
-    "location": "Pakistan",
-    "languages": ["English"],
-    "website": {
-      "label": "Twitter.com",
-      "url": "https://twitter.com/RMTalhaTariq"
-    },
-    "socials": {
-      "twitter": "RMTalhaTariq"
-    }
+    "website": {},
+    "socials": {},
+    "sponsor": false
   },
   {
     "name": "Nwabuzor Esther",

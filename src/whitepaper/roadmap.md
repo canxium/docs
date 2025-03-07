@@ -3,7 +3,7 @@
 :::info You are reading the latest version of Canxium Whitepaper
 
 - Updated on **Nov 6, 2024**.
-- Version: v2.5
+- Version: v2.6
   :::
 
 # Canxium’s Roadmap: Strategic Milestones
@@ -13,22 +13,22 @@ Canxium’s journey is guided by a comprehensive **roadmap** that outlines our s
 ## **Phase 1: Foundation and Development (2023–2024)**
 
 - **5/2023**: Launch of Canxium mainnet.
-- **8/2023**: Launch Cerium testnet to test the Hydro fork and offline mining.
+- **8/2023**: Launch Cerium testnet to test the Hydro fork and Retained PoW mining.
 - **5-6/2024**: Mainnet Hydro hardfork.
 
-## **Phase 2: Hybrid Chain - PoS + PoW [Offline Mining] (2024)**
+## **Phase 2: Hybrid Chain - PoS + PoW [Retained PoW Mining] (2024)**
 
 The difficulty-based reward system is an innovative idea, but it has certain drawbacks, which we are fully aware of. One significant downside is its potential negative impact on the network's safety. With low demand, miners may lose the incentive to continue contributing their mining power to secure the network. As a result, **separating coin mining from chain operation** has become an urgent and critical issue.
 
 - **PoS Mechanism**: Canxium will inherit Ethereum’s **Proof of Stake (PoS)** mechanism to save on development time and costs. However, the PoS rewards system will undergo modifications. PoS rewards will only be distributed if a validator’s balance drops below **320 CAU** due to penalties. This mechanism ensures that validators remain active within the network and helps prevent situations where their balances continually decrease due to penalties.
 
-- **PoS Rewards Distribution**: The main source of PoS rewards will come from **offline mining**. Validators will share **15%** of the mining rewards with miners.
+- **PoS Rewards Distribution**: The main source of PoS rewards will come from **Retained PoW mining**. Validators will share **15%** of the mining rewards with miners.
 
 ### Updated Roadmap
 
 More than a year has passed with many difficulties and events. Nevertheless, Canxium has realized its initial vision of creating a new blockchain with new core values, such as:
 
-- **Offline Mining**
+- **Retained PoW Mining**
 - **Stable Mining Costs**
 - **A blockchain with a supply that adjusts to market demand**
 
@@ -48,7 +48,7 @@ This transition phase will focus on addressing outstanding issues from before, i
 - Maintenance and upgrades of the **Canxium swap platform** and **wallet**.
 - **Development of a new Canxium website**.
 - Increase the minimum mining difficulty from **500 GH to 5 TH** once the total number of mined transactions reaches **50 million**. The purpose of raising the difficulty is to reduce the number of mined transactions and alleviate network congestion; it does not impact miners.
-- **Launch an offline mining competition**: Celebrating miners who set up the most impressive fully offline CAU mining environment. Rewards include both **CAU** and **OFF**.
+- **Launch an Retained PoW mining competition**: Celebrating miners who set up the most impressive fully Retained PoW CAU mining environment. Rewards include both **CAU** and **OFF**.
 - **Complete integration** of the Canxium network into the **Tangem wallet**.
 
 ---
@@ -85,14 +85,14 @@ This transition phase will focus on addressing outstanding issues from before, i
 #### **Ongoing: Continuous Innovation**
 - Implement **regular updates** based on community feedback and emerging trends.
 - Research feasible solutions to **expand the network**.
-- **Integrate new mining algorithms** into offline mining.
+- **Integrate new mining algorithms** into Retained PoW mining.
 - **Upgrade transaction processing capabilities** to achieve **1k-1.2k TPS** (Max Theoretical TPS).
 - Study the feasibility of **decreasing mining rewards annually** to align with USD inflation.
 - Research the creation of a **hedge fund** to acquire CAU when the price falls below the average mining cost and vice versa.
 
 ---
 
-## Kaspa Merge Mining (12/2024 - Q2/2025) {#kaspa-merge-mining}
+## Cross-Chain Mining (12/2024 - Q2/2025) {#kaspa-merge-mining}
 
 
 ### **Phase 1: Research and Planning**
@@ -101,7 +101,7 @@ This transition phase will focus on addressing outstanding issues from before, i
    - Understand how Kaspa implements its difficulty adjustment, block validation, and reward distribution.
 
 2. **Define Integration Scope**
-   - Determine how Canxium will validate Kaspa’s blocks in its offline mining protocol.
+   - Determine how Canxium will validate Kaspa’s blocks in its Retained PoW mining protocol.
    - Decide whether Kaspa blocks will be stored entirely or partially within Canxium blocks.
 
 3. **Community Engagement**
@@ -112,13 +112,13 @@ This transition phase will focus on addressing outstanding issues from before, i
    - Implement a basic mechanism for Canxium to accept and validate Kaspa blocks.
    - Create a lightweight integration layer for the `kHeavyHash` algorithm within Canxium's framework.
 
-2. **Offline Mining Adaptation**
-   - Integrate Kaspa block data into Canxium’s offline mining protocol.
-   - Test scenarios for how offline mining workflows will incorporate Kaspa’s data.
+2. **Retained PoW Mining Adaptation**
+   - Integrate Kaspa block data into Canxium’s Retained PoW mining protocol.
+   - Test scenarios for how Retained PoW mining workflows will incorporate Kaspa’s data.
 
 3. **Testnet Deployment**
    - Deploy the updated Canxium node software on a dedicated testnet.
-   - Simulate merge-mining with Kaspa blocks to debug any technical or performance issues.
+   - Simulate mining with Kaspa blocks to debug any technical or performance issues.
 
 ---
 
@@ -132,7 +132,7 @@ This transition phase will focus on addressing outstanding issues from before, i
    - Publish the details of Kaspa miner rewards to the community.
 
 3. **Documentation**
-   - Update Canxium’s documentation to include details about merge mining with Kaspa.
+   - Update Canxium’s documentation to include details about cross-chain mining with Kaspa.
    - Provide clear instructions for miners to enable and participate in the integration.
 
 4. **Community Announcement**
@@ -144,7 +144,7 @@ This transition phase will focus on addressing outstanding issues from before, i
 ### **Phase 4: Official Launch**
 1. **Mainnet Deployment**
    - Roll out the updated Canxium software to the mainnet.
-   - Activate merge mining functionality with Kaspa.
+   - Activate cross-chain mining functionality with Kaspa.
 
 2. **Community Support**
    - Monitor the network closely for any unforeseen issues.
@@ -154,14 +154,14 @@ This transition phase will focus on addressing outstanding issues from before, i
 
 ### **Phase 5: Post-Launch Optimization (Ongoing)**
 1. **Performance Monitoring**
-   - Track merge-mining efficiency and ensure the stability of the integration.
+   - Track mining efficiency and ensure the stability of the integration.
 
 2. **Expand Partnerships**
-   - Promote merge mining benefits to other blockchains and projects.
+   - Promote cross-chain mining benefits to other blockchains and projects.
    - Begin planning for Litecoin integration after Kaspa’s success.
 
 3. **Iterative Improvements**
-   - Gather miner feedback and improve merge mining functionality over time.
+   - Gather miner feedback and improve cross-chain mining functionality over time.
 
 ---
 
@@ -180,13 +180,13 @@ The timeline above is only an estimate; the actual timeframe may vary depending 
 
 ---
 
-By prioritizing Kaspa first, this roadmap ensures a smooth integration that showcases the benefits of merge mining for both Canxium and Kaspa communities.
+By prioritizing Kaspa first, this roadmap ensures a smooth integration that showcases the benefits of cross-chain mining for both Canxium and Kaspa communities.
 
 
 ## **Summary**
 
 In summary, Canxium is still a young blockchain with a limited team and resources, facing increasing competition. Therefore, its next focus is to maximize resources for ecosystem development and user expansion. This is a key factor in ensuring Canxium’s survival and growth, ultimately aiming to create a **sustainable blockchain** and a **reliable digital currency**.
 
-You have also seen what we have achieved during this time. The **offline mining mechanism** operates very stably and securely. The **supply’s flexibility** according to the market has helped slow down the market downturn when emissions are paused. Miners temporarily halt their operations when the price drops below the fixed mining cost, contributing to greater **stability** and **reliability** compared to typical PoW coins.
+You have also seen what we have achieved during this time. The **Retained PoW mining mechanism** operates very stably and securely. The **supply’s flexibility** according to the market has helped slow down the market downturn when emissions are paused. Miners temporarily halt their operations when the price drops below the fixed mining cost, contributing to greater **stability** and **reliability** compared to typical PoW coins.
 
 We truly believe that the path we have chosen, which is completely different from the rest of the world, is the right direction. **Reliability, stability, fairness,** and **true decentralization** will be the core values that bring prosperity to this young blockchain industry.

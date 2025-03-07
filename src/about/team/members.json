@@ -1,22 +1,5 @@
 [
   {
-    "name": "Kevin Artman",
-    "avatarPic": "https://a7b76a42.canxium.pages.dev/images/kevin.jpg",
-    "title": "Graphic Designer",
-    "company": "Canxium.org",
-    "projects": [
-      {
-        "label": "canxium/*",
-        "url": "https://www.github.com/canxium"
-      }
-    ],
-    "location": "France",
-    "languages": ["English", "French"],
-    "website": {},
-    "socials": {},
-    "sponsor": false
-  },
-  {
     "name": "John Kerry",
     "avatarPic": "https://a7b76a42.canxium.pages.dev/images/john.jpg",
     "title": "Advisor",
@@ -35,5 +18,22 @@
     },
     "socials": {},
     "sponsor": false
+  },
+  {
+    "name": "Talha Tariq",
+    "avatarPic": "https://3fe419cb.canxium.pages.dev/images/talha.jpg",
+    "title": "Writer",
+    "company": "",
+    "companyLink": "",
+    "projects": [],
+    "location": "Pakistan",
+    "languages": ["English"],
+    "website": {
+      "label": "Twitter.com",
+      "url": "https://twitter.com/RMTalhaTariq"
+    },
+    "socials": {
+      "twitter": "RMTalhaTariq"
+    }
   }
 ]

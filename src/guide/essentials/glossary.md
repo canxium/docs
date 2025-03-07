@@ -26,9 +26,9 @@ The distribution of network control across multiple independent actors, rather t
 A foundational blockchain that operates independently and supports its own protocols and tokenomics. Canxium is a layer-one blockchain, featuring unique architecture, demand-based supply control, and innovative consensus.
 
 ### **Mining**
-The process of validating and adding transactions to the blockchain. Canxium’s *Offline Mining* allows users with limited or no internet access to participate, expanding access and decentralization.
+The process of validating and adding transactions to the blockchain. Canxium’s *Retained PoW Mining* allows users with limited or no internet access to participate, expanding access and decentralization.
 
-### **Offline Mining**
+### **Retained PoW Mining**
 A novel mining method pioneered by Canxium, allowing users with limited or no internet connectivity to mine CAU coins. This feature helps increase global accessibility and inclusivity within the blockchain ecosystem.
 
 ### **Price Volatility**
@@ -59,7 +59,7 @@ A digital application that stores, sends, and receives CAU coins, providing user
 The measure of computational power used in mining or processing transactions. Canxium’s mining model ensures that miners receive consistent rewards proportional to their hashrate, regardless of network demand fluctuations.
 
 ### **Accessibility**
-The ease with which a diverse range of users can participate in the Canxium blockchain. Through features like Offline Mining, Canxium enhances accessibility, aiming to reach users worldwide, including those with limited internet.
+The ease with which a diverse range of users can participate in the Canxium blockchain. Through features like Retained PoW Mining, Canxium enhances accessibility, aiming to reach users worldwide, including those with limited internet.
 
 ### **Mainstream Adoption**
 The process by which a technology or asset becomes widely accepted and used in everyday life. Canxium aims for mainstream adoption by addressing issues like price stability, accessibility, and usability.
@@ -68,7 +68,7 @@ The process by which a technology or asset becomes widely accepted and used in e
 The measures and protocols that protect the blockchain from malicious attacks or unauthorized access. Canxium’s decentralized architecture and consensus model enhance network security.
 
 ### **Proof of Work (PoW)**
-A consensus method where miners solve complex algorithms to validate transactions. Canxium’s PoW model is enhanced with Offline Mining, making mining more accessible and inclusive.
+A consensus method where miners solve complex algorithms to validate transactions. Canxium’s PoW model is enhanced with Retained PoW Mining, making mining more accessible and inclusive.
 
 ### **Governance**
 The framework through which decisions are made within the Canxium blockchain. CAU holders participate in governance by staking coins, voting on key proposals, and contributing to the platform’s development.
@@ -92,4 +92,4 @@ The number of transactions a blockchain network can process per second. Canxium�
 The openness and visibility of blockchain transactions and operations. Canxium upholds transparency, allowing users to verify transactions, supply mechanisms, and governance actions directly on the blockchain.
 
 ### **Inclusion**
-Ensuring that blockchain technology is accessible to diverse communities and individuals, regardless of geographic or economic status. Canxium’s features, like Offline Mining, reflect its commitment to a more inclusive financial ecosystem.
+Ensuring that blockchain technology is accessible to diverse communities and individuals, regardless of geographic or economic status. Canxium’s features, like Retained PoW Mining, reflect its commitment to a more inclusive financial ecosystem.

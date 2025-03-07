@@ -31,7 +31,7 @@ onMounted(() => {
       <br />Even Offline
     </h1>
     <p class="description">
-      Enabling offline crypto mining, tailored for market demand.
+      Reinventing Cryptocurrency Mining For A Healthier Blockchain Economy.
     </p>
     <p class="actions">
       <VueMasteryModal />
@@ -67,45 +67,45 @@ onMounted(() => {
 
   <section id="highlights" class="vt-box-container">
     <div class="vt-box">
-      <h2>Innovation in Accessibility</h2>
+      <h2>Market-Driven Supply Control</h2>
       <p>
-        Making blockchain technology more accessible by enabling offline crypto mining, expanding usability and inclusivity in diverse environments.
+        Canxium has invented a new decentralized supply mechanism that ensures CAU’s issuance is determined by market demand, fostering a dynamic and sustainable blockchain economy.
       </p>
     </div>
     <div class="vt-box">
-      <h2>Market Responsiveness</h2>
+      <h2>Constant Mining Costs</h2>
       <p>
-        Designed to adapt to real market needs, ensuring Canxium aligns with user demands and industry trends for maximum relevance and utility.
+        Unlike traditional cryptocurrencies, Canxium maintains a fixed mining cost under all conditions, preventing unpredictable fluctuations and ensuring long-term stability.
       </p>
     </div>
     <div class="vt-box">
-      <h2>Reliability & Independence</h2>
+      <h2>Decentralized & Autonomous</h2>
       <p>
-        Providing a stable, decentralized blockchain solution that users can trust, operating independently of constant internet connectivity.
+        Miners have full control over their operations without reliance on centralized infrastructure, fostering inclusivity and accessibility worldwide.
       </p>
     </div>
     <div class="vt-box">
-      <h2>Sustainable Growth</h2>
+      <h2>Balanced Economic Model</h2>
       <p>
-        Promoting sustainable, energy-conscious mining practices through efficient offline functionality, supporting long-term growth without excessive resource consumption.
+        By allowing market forces to regulate supply and demand, Canxium minimizes inflation risks while promoting organic growth and long-term sustainability.
       </p>
     </div>
     <div class="vt-box">
-      <h2>Decentralized Autonomy</h2>
+      <h2>Multi-Algorithm Compatibility</h2>
       <p>
-        Empowering miners with full control over their mining activities without dependency on centralized infrastructure or constant connectivity or compete with each other.
+        Canxium supports multiple PoW algorithms simultaneously, making it compatible with various mining hardware, including Bitcoin ASICs.
       </p>
     </div>
     <div class="vt-box">
-      <h2>Sustainable Stability</h2>
+      <h2>Sustainable Mining Approach</h2>
       <p>
-        Canxium have developed a new PoW coin that maintains its value by adjusting mining rewards base on mining difficulty in response to real-time market conditions.
+        With an efficient reward system based on mining difficulty, Canxium prevents excessive resource consumption while ensuring fair and predictable incentives.
       </p>
     </div>
     <div class="vt-box">
-      <h2>Multiple PoW Algorithm</h2>
+      <h2>Expanding Mining Accessibility</h2>
       <p>
-        Canxium can support multiple PoW algorithms simultaneously due to its mining mechanism. Miners can even use Bitcoin mining hardware to mine Canxium Coin.
+        By enabling offline mining, Canxium opens new opportunities for users in remote or underserved areas, increasing participation in the global blockchain economy.
       </p>
     </div>
   </section>
