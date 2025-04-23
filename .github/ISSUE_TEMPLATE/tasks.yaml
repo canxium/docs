@@ -1,0 +1,53 @@
+name: "\U0001F4A1 New Idea / Proposal"
+description: Suggest a new feature, improvement, or idea for Canxium
+title: "[Idea] <short title>"
+labels: ["idea", "discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to Canxium! Please describe your idea clearly so the community can review and discuss it.
+
+  - type: input
+    id: title
+    attributes:
+      label: Short Title
+      description: A concise title for the idea
+      placeholder: "Example: Update cross-chain mining protocol"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Explain the idea, its purpose, and potential benefits.
+      placeholder: |
+        What's the idea?
+        Why is it important?
+        How would it work (if known)?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category Tags
+      description: Choose one or more relevant categories
+      multiple: true
+      options:
+        - Blockchain
+        - Smart Contracts
+        - App
+        - Awareness
+        - Other
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I've checked for similar issues before posting.
+        - label: This idea aligns with Canxium's decentralization and fairness principles.

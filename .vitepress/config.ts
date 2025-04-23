@@ -37,6 +37,7 @@ const nav: ThemeConfig['nav'] = [
       }
     ]
   },
+  { text: 'Timeline', link: '/timeline/' },
   {
     text: 'API',
     activeMatch: `^/api/`,
@@ -196,7 +197,8 @@ export const sidebar: ThemeConfig['sidebar'] = {
         },
         { text: 'Retained PoW Mining', link: '/guide/essentials/retained-pow-mining' },
         { text: 'CAU Mining: Independent', link: '/guide/essentials/how-to-mine' },
-        { text: 'CAU Mining: Cross-Chain', link: '/guide/essentials/how-to-cross-chain-mining' }
+        { text: 'CAU Mining: Cross-Chain', link: '/guide/essentials/how-to-cross-chain-mining' },
+        { text: 'Cross-Chain Mining: Pool Approval Criteria', link: '/guide/essentials/cross-chain-mining-criteria' }
       ]
     },
     {
@@ -287,7 +289,6 @@ export const sidebar: ThemeConfig['sidebar'] = {
         { text: 'Independent Mining Rewards', link: '/whitepaper/tokenomics/independent_mining_rewards' },
         { text: 'Cross-Chain Mining Rewards', link: '/whitepaper/tokenomics/cross_chain_mining_rewards' },
         { text: 'Use Cases', link: '/whitepaper/usecases' },
-        { text: 'Roadmap', link: '/whitepaper/roadmap' }
       ]
     }
   ],

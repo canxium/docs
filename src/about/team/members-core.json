@@ -1,6 +1,6 @@
 [
   {
-    "name": "Neo Krypt",
+    "name": "Neo Krypt (Dat Nguyen)",
     "title": "Creator",
     "company": "Canxium.org",
     "projects": [
@@ -13,12 +13,12 @@
     "languages": ["English", "Vietnamese"],
     "website": {
       "label": "linkedin.com",
-      "url": "https://www.linkedin.com/in/neo-krypt/"
+      "url": "https://www.linkedin.com/in/dat-nguyen-cse/"
     },
     "socials": {
       "github": "canximan",
       "twitter": "neo_krypt",
-      "linkedin": "neo-krypt"
+      "linkedin": "dat-nguyen-cse"
     },
     "sponsor": false
   }

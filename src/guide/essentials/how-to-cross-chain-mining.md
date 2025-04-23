@@ -5,9 +5,10 @@ If you are actively mining in any of the following pools, simply update your CAU
 1. F2Pool: Finished | [Guide](https://f2pool.zendesk.com/hc/en-us/articles/43969826620825-f2pool-launches-KAS-CAU-cross-chain-mining) | [Scan Address](https://scan.canxium.org/address/0x1f11fe5f07d1e74C8f77A3cB3101438878853E12)
 2. WhalePool: Finished | [Guide](https://www.whalepool.com/news/7) | [Scan Address](https://scan.canxium.org/address/0x1923a3A063C1964b3a3Cb243527F125e702AC5F1)
 3. K1Pool: Finished | [Scan Address](https://scan.canxium.org/address/0x92d003f6Ba388dF9943c01a26A9616b9bda0Ac7B)
-4. HumPool: Finished | [Guide](https://www.humpool.com/pool/announcement-details?id=55)
-5. AntPool: Integrating ...
-6. ViaBtc: Integrating ...
+4. HumPool: Finished | [Guide](https://www.humpool.com/pool/announcement-details?id=55) | [Scan Address](https://scan.canxium.org/address/0x61faba23a639d1028e74bffe14c483bb80be9d0e)
+5. EMCD: Finished | [X](https://x.com/emcd_io/status/1902028305164906961) | [Scan Address](https://scan.canxium.org/address/0xafd0ede3a0dd8c4c88cc96b47b4d49cad1320b24)
+6. BaikalMine.com: Finished
+6. Kaspa-nodes.org: Finished
 :::
 
 :::warning
