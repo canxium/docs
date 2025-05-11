@@ -606,7 +606,7 @@ export default [
     tag: "Research",
     priority: "Medium",
     quarter: "Q3",
-    index: 59,
+    index: 60,
   },
   {
     name: "Cross-Chain Mining: Kaspa",
@@ -616,6 +616,6 @@ export default [
     tag: "Research",
     priority: "High",
     quarter: "Q3",
-    index: 59,
+    index: 61,
   }
 ]
