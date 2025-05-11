@@ -597,5 +597,25 @@ export default [
     priority: "Medium",
     quarter: "Q3",
     index: 59,
+  },
+  {
+    name: "Update The Bridge",
+    description: "Bridge Improvements and Upgrade Research",
+    status: "Planned",
+    year: "2025",
+    tag: "Research",
+    priority: "Medium",
+    quarter: "Q3",
+    index: 59,
+  },
+  {
+    name: "Cross-Chain Mining: Kaspa",
+    description: "The number of valid Kaspa cross-mined blocks is close to 8 blocks per second, which will put pressure on Canxium in the long run. A solution to reduce the load needs to be explored.",
+    status: "Planned",
+    year: "2025",
+    tag: "Research",
+    priority: "High",
+    quarter: "Q3",
+    index: 59,
   }
 ]
