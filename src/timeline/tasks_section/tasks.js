@@ -610,7 +610,7 @@ export default [
   },
   {
     name: "Cross-Chain Mining: Kaspa",
-    description: "The number of valid Kaspa cross-mined blocks is close to 8 blocks per second, which will put pressure on Canxium in the long run. A solution to reduce the load needs to be explored.",
+    description: "Research on generating zk-SNARKs proofs for multiple Kaspa blocks. Reduce the load on the Canxium when verifying Kaspa PoW.",
     status: "Planned",
     year: "2025",
     tag: "Research",
