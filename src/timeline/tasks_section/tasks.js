@@ -553,7 +553,7 @@ export default [
     description: "Build MM Tools for the Canxium project.",
     status: "In Progress",
     year: "2025",
-    tag: "Research",
+    tag: "App",
     priority: "High",
     quarter: "Q2",
     index: 55,
