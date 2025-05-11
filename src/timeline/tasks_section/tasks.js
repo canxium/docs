@@ -620,7 +620,7 @@ export default [
   },
   {
     name: "Cross-Chain Mining: Kaspa",
-    description: "Research on generating zk-SNARKs proofs for multiple Kaspa blocks. Reduce the load on the Canxium when verifying Kaspa PoW.",
+    description: "Reduce the load on the Canxium when verifying Kaspa PoW.",
     status: "Planned",
     year: "2025",
     tag: "Research",
