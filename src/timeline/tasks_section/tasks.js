@@ -579,6 +579,16 @@ export default [
     index: 57,
   },
   {
+    name: "Live AMA with Co-Founder: The Future of PoW Mining",
+    description: "Join our first-ever live AMA with the co-founder as we dive into the vision, roadmap, and groundbreaking developments ahead - including offline mining, zk-proofs, and cross-mining integration.",
+    status: "In Progress",
+    year: "2025",
+    tag: "Awareness",
+    priority: "High",
+    quarter: "May 18",
+    index: 58,
+  },
+  {
     name: "Cross-Chain Mining: Zcash",
     description: "Research the possibility of cross-chain mining with Zcash.",
     status: "Planned",
@@ -586,7 +596,7 @@ export default [
     tag: "Research",
     priority: "Medium",
     quarter: "Q3",
-    index: 58,
+    index: 59,
   },
   {
     name: "Cross-Chain Mining: Dash",
@@ -596,7 +606,7 @@ export default [
     tag: "Research",
     priority: "Medium",
     quarter: "Q3",
-    index: 59,
+    index: 60,
   },
   {
     name: "Update The Bridge",
@@ -606,7 +616,7 @@ export default [
     tag: "Research",
     priority: "Medium",
     quarter: "Q3",
-    index: 60,
+    index: 61,
   },
   {
     name: "Cross-Chain Mining: Kaspa",
@@ -616,6 +626,6 @@ export default [
     tag: "Research",
     priority: "High",
     quarter: "Q3",
-    index: 61,
+    index: 62,
   }
 ]
