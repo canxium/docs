@@ -627,5 +627,15 @@ export default [
     priority: "High",
     quarter: "Q3",
     index: 62,
+  },
+  {
+    name: "Research RETH",
+    description: "Research to use RETH client besides GETH to increase network reliability.",
+    status: "Planned",
+    year: "2025",
+    tag: "Research",
+    priority: "High",
+    quarter: "Q4",
+    index: 63,
   }
 ]
