@@ -581,7 +581,7 @@ export default [
   {
     name: "Live AMA with Co-Founder: The Future of PoW Mining",
     description: "Join our first-ever live AMA with the co-founder as we dive into the vision, roadmap, and groundbreaking developments ahead - including offline mining, zk-proofs, and cross-mining integration.",
-    status: "In Progress",
+    status: "Completed",
     year: "2025",
     tag: "Awareness",
     priority: "High",
