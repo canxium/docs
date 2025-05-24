@@ -621,11 +621,11 @@ export default [
   {
     name: "Cross-Chain Mining: Kaspa",
     description: "Reduce the load on the Canxium when verifying Kaspa PoW.",
-    status: "Planned",
+    status: "In Progress",
     year: "2025",
     tag: "Research",
     priority: "High",
-    quarter: "Q3",
+    quarter: "Q2",
     index: 62,
   },
   {
