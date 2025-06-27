@@ -645,7 +645,7 @@ export default [
     year: "2025",
     tag: "Blockchain",
     priority: "High",
-    quarter: "Q2",
+    quarter: "Q3",
     index: 66,
   },
 ]
