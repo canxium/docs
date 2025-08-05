@@ -286,8 +286,8 @@ export const sidebar: ThemeConfig['sidebar'] = {
       text: 'Extra Details',
       items: [
         { text: 'Tokenomics', link: '/whitepaper/tokenomics/tokenomics' },
-        { text: 'Independent Mining Rewards', link: '/whitepaper/tokenomics/independent_mining_rewards' },
-        { text: 'Cross-Chain Mining Rewards', link: '/whitepaper/tokenomics/cross_chain_mining_rewards' },
+        { text: 'Tokenomics: Independent Mining Rewards', link: '/whitepaper/tokenomics/independent_mining_rewards' },
+        { text: 'Tokenomics: Cross-Chain Mining Rewards', link: '/whitepaper/tokenomics/cross_chain_mining_rewards' },
         { text: 'Use Cases', link: '/whitepaper/usecases' },
       ]
     }
