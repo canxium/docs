@@ -29,10 +29,6 @@ onMounted(() => {
     <p class="description">
       The first cryptocurrency with truly stable mining costs — designed to serve as functional money, not just a store of value.
     </p>
-    <p class="mission-statement">
-      Money shouldn't be printed at will or mined on chaos.<br />
-      It should be earned fairly, at a stable cost, and used with confidence.
-    </p>
     <p class="actions">
       <VueMasteryModal />
       <a class="setup" href="/guide/introduction#why-canxium">Why Canxium?</a>
