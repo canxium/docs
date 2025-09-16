@@ -26,5 +26,22 @@
       "linkedin": "nwabuzor-esther-609aa31a6"
     },
     "reposPersonal": ["vue-enterprise-boilerplate"]
+  },
+  {
+    "name": "Talha Tariq",
+    "avatarPic": "https://3fe419cb.canxium.pages.dev/images/talha.jpg",
+    "title": "Writer",
+    "company": "",
+    "companyLink": "",
+    "projects": [],
+    "location": "Pakistan",
+    "languages": ["English"],
+    "website": {
+      "label": "Twitter.com",
+      "url": "https://twitter.com/RMTalhaTariq"
+    },
+    "socials": {
+      "twitter": "RMTalhaTariq"
+    }
   }
 ]
