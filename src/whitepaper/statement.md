@@ -8,21 +8,30 @@
   
 ## Problem Statement {#problem}
 
-Since the creation of Bitcoin over a decade ago, cryptocurrencies have come a long way. Despite their potential, they still face significant challenges that prevent widespread adoption and daily use. This section outlines the key issues Canxium aims to address, highlighting obstacles that have limited the use of existing cryptocurrencies.
+Since the creation of Bitcoin, cryptocurrencies have demonstrated enormous potential. Yet, despite over a decade of progress, they remain far from achieving mainstream adoption as everyday money. The core reason is that most cryptocurrencies are not designed around the economic principle that underpins real-world markets: stable production costs and adaptive supply. Instead, they rely on rigid or artificial models that lead to volatility, inefficiency, and centralization.
 
-### Inflexible Supply Models:
-Traditional cryptocurrencies typically use either an inflationary model, where new coins are continuously minted, or a deflationary model, where the total coin supply is fixed and burned. While each model has benefits, both can lead to supply crises, causing excess or scarcity that results in price volatility. These models support hoarding and speculation rather than promoting value growth based on real-world demand and usage. For daily utility, cryptocurrencies need to be demand-driven and more reliable.
+### Inflexible Supply Model
 
-### Fluctuating Mining Costs:
-Due to inflexible supply models, mining costs for cryptocurrencies can fluctuate widely. Changes in mining difficulty combined with fixed rewards create uncertainties, putting smaller miners at a disadvantage compared to well-resourced miners. This discourages new miners, reduces profitability, and disrupts decentralization. These fluctuations contribute to price volatility, decreasing reliability and hindering adoption.
+Traditional cryptocurrencies typically follow one of two paths:
 
-### Price Volatility:
-Volatility is a major barrier to the mainstream adoption of cryptocurrencies. Rapid price fluctuations prevent cryptocurrencies from being stable stores of value and reliable mediums of exchange. Traditional supply models often fail to respond to real-world supply and demand, leading to instability and low trust from users and businesses.
+Fixed (deflationary) supply, as in Bitcoin, where issuance is predetermined and halved over time.
 
-### Limited Accessibility:
-Currently, only a small portion of the world’s population uses cryptocurrency and blockchain technology. Barriers include the complexity of crypto systems, limited mining opportunities, and high volatility in mining costs, which discourage investment in mining infrastructure. For cryptocurrencies to achieve mainstream adoption, mining must become globally accessible, and costs should be more predictable and stable.
+Inflationary supply, where coins are continuously minted regardless of demand.
 
-### Centralization of Mining Power:
-Many Proof-of-Work (PoW) blockchains suffer from mining centralization, where a few large mining pools control the majority of the network’s hash rate. This concentration reduces decentralization, which is a core principle of blockchain technology.
+Both approaches create instability. Fixed supply leads to artificial scarcity and speculation, while continuous inflation dilutes value. Neither system responds to real-world demand. This disconnect drives volatility and encourages hoarding instead of everyday utility.
 
-In the following sections, we’ll explore how Canxium addresses these challenges. By prioritizing scalability, sustainability, stability, and reliability, Canxium aims to become a dependable and practical solution for users worldwide.
+### Unstable Mining Economics
+
+In Bitcoin and similar systems, mining costs fluctuate dramatically. Difficulty adjustments change the computational burden without anchoring it to a stable cost per unit of currency. When difficulty rises, miners face unpredictable costs, forcing small miners out and concentrating power in industrial operations. This undermines decentralization and weakens the resilience of the network.
+
+### Price Volatility
+
+Without a mechanism to balance supply with demand, cryptocurrencies leave price as the only variable that can adjust. This results in extreme volatility, which discourages use as a store of value or medium of exchange. Businesses and individuals cannot rely on such assets for daily transactions, limiting real-world adoption.
+
+### Barriers to Accessibility
+
+Mining in traditional Proof-of-Work systems is increasingly inaccessible. Specialized hardware, fluctuating difficulty, and centralized mining pools create high barriers to entry. This reduces participation, limits geographic diversity, and concentrates wealth and power in a few large entities.
+
+### Centralization of Mining Power
+
+The rise of mining pools has concentrated hash power into the hands of a few dominant players. In many Proof-of-Work blockchains, a small number of pools control the majority of network resources. This erodes decentralization, reintroducing a form of central control that blockchains were originally designed to eliminate.
