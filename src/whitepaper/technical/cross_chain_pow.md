@@ -3,7 +3,7 @@
 :::info You are reading the latest version of Canxium Whitepaper
 
 - Updated on **Jan 26, 2025**.
-- Version: v2.6
+- Version: v2.7
   :::
 
 # **Canxium Cross-Chain Retained PoW: Comprehensive Technical Documentation**

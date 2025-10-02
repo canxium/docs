@@ -2,7 +2,7 @@
 
 :::info
 You are reading the latest version of the Canxium Whitepaper  
-- Updated on **Nov 6, 2024**  
+- Updated on **Oct 2, 2025**  
 - Version: **v2.6**
 :::
 
