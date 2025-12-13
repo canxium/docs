@@ -15,6 +15,7 @@
     "@vue/theme": "git+https://github.com/canxium/theme.git#main",
     "dynamics.js": "^1.1.5",
     "gsap": "^3.12.5",
+    "markdown-it-texmath": "^1.0.0",
     "vitepress": "^1.4.0",
     "vue": "^3.5.12",
     "vue3-pdf-app": "^1.0.3"
@@ -23,6 +24,8 @@
     "@types/body-scroll-lock": "^3.1.2",
     "@types/markdown-it": "^14.1.2",
     "@types/node": "^22.7.5",
+    "katex": "^0.16.27",
+    "markdown-it-katex": "^2.0.3",
     "sass-embedded": "^1.87.0",
     "typescript": "^5.6.3",
     "vue-tsc": "^2.1.6"

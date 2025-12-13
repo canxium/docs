@@ -4,6 +4,9 @@ import { defineConfigWithTheme } from 'vitepress'
 import type { Config as ThemeConfig } from '@vue/theme'
 import baseConfig from '@vue/theme/config'
 import { headerPlugin } from './headerMdPlugin'
+// @ts-ignore
+import texmath from 'markdown-it-texmath'
+import katex from 'katex'
 // import { textAdPlugin } from './textAdMdPlugin'
 
 const nav: ThemeConfig['nav'] = [
@@ -46,6 +49,10 @@ const nav: ThemeConfig['nav'] = [
   {
     text: 'Whitepaper',
     link: '/whitepaper/abstract'
+  },
+  {
+    text: 'PoW 2.0',
+    link: '/whitepaper-2.0/abstract'
   },
   {
     text: 'Ecosystem',
@@ -425,10 +432,17 @@ export default defineConfigWithTheme<ThemeConfig>({
     theme: 'github-dark',
     config(md) {
       md.use(headerPlugin)
+      md.use(texmath, {
+        engine: katex,
+        delimiters: 'dollars',
+        katexOptions: {
+          throwOnError: false,
+          strict: false
+        }
+      })
       // .use(textAdPlugin)
     }
   },
-
   vite: {
     define: {
       __VUE_OPTIONS_API__: false

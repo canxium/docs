@@ -1,4 +1,6 @@
 import './styles/index.css'
+import 'katex/dist/katex.min.css'
+import 'markdown-it-texmath/css/texmath.css'
 import { h, App } from 'vue'
 import { VPTheme } from '@vue/theme'
 import PreferenceSwitch from './components/PreferenceSwitch.vue'
