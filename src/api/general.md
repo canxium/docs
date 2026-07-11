@@ -18,12 +18,6 @@ Canxium clients each may utilize different programming languages when implementi
 
 While you may choose to interact directly with Canxium clients via the JSON-RPC API, there are often easier options for dapp developers. Many JavaScript and backend API libraries exist to provide wrappers on top of the JSON-RPC API. With these libraries, developers can write intuitive, one-line methods in the programming language of their choice to initialize JSON-RPC requests (under the hood) that interact with Canxium.
 
-## Consensus client APIs {#consensus-clients}
-
-This page deals mainly with the JSON-RPC API used by Canxium execution clients. However, consensus clients also have an RPC API that allows users to query information about the node, request Beacon blocks, Beacon state, and other consensus-related information directly from a node. This API is documented on the [Beacon API webpage](https://ethereum.github.io/beacon-APIs/#/).
-
-An internal API is also used for inter-client communication within a node - that is, it enables the consensus client and execution client to swap data. This is called the 'Engine API' and the specs are available on [GitHub](https://github.com/ethereum/execution-apis/blob/main/src/engine/common.md).
-
 ## Execution client spec {#spec}
 
 [Read the full JSON-RPC API spec on GitHub](https://github.com/ethereum/execution-apis). This API is documented on the [Execution API webpage](https://ethereum.github.io/execution-apis/api-documentation/) and includes an Inspector to try out all the available methods.
@@ -1651,7 +1645,7 @@ Result see [eth_getFilterChanges](#eth_getfilterchanges)
 
 ### Deploying a contract using JSON_RPC {#deploying-contract}
 
-This section includes a demonstration of how to deploy a contract using only the RPC interface. There are alternative routes to deploying contracts where this complexity is abstracted away—for example, using libraries built on top of the RPC interface such as [web3.js](https://web3js.readthedocs.io/) and [web3.py](https://github.com/ethereum/web3.py). These abstractions are generally easier to understand and less error-prone, but it is still helpful to understand what is happening under the hood.
+This section includes a demonstration of how to deploy a contract using only the RPC interface. There are alternative routes to deploying contracts where this complexity is abstracted away-for example, using libraries built on top of the RPC interface such as [web3.js](https://web3js.readthedocs.io/) and [web3.py](https://github.com/ethereum/web3.py). These abstractions are generally easier to understand and less error-prone, but it is still helpful to understand what is happening under the hood.
 
 The following is a straightforward smart contract called `Multiply7` that will be deployed using the JSON-RPC interface to an Canxium node. This tutorial assumes the reader is already running a Geth node. Please refer to individual client documentation to see how to start the HTTP JSON-RPC for non-Geth clients. Most clients default to serving on `localhost:8545`.
 

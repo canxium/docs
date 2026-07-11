@@ -14,3 +14,25 @@
   display: none;
 }
 
+
+/* Fill the viewport on short full-width pages (e.g. the landing page)
+   so the footer always sits at the bottom of the screen. */
+.VPContentPage {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - var(--vt-nav-height) - var(--vt-banner-height, 0px));
+}
+
+.VPContentPage main {
+  flex-grow: 1;
+}
+
+/* Homepage only: let the hero fill the space between nav and footer
+   and center its content vertically. */
+.VPContentPage main:has(#hero),
+.VPContentPage main:has(#hero) > div,
+.VPContentPage main:has(#hero) > div > div {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}

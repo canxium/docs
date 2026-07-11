@@ -6,20 +6,13 @@ import { VTCodeGroup, VTCodeGroupTab } from '@vue/theme'
 
 ## Install Canxium Node
 
-1. **Start the Node**:
-  - Run the following to start your node and begin syncing with the network:
-    ```bash
-    
-    bash <(curl -fsSL https://raw.githubusercontent.com/canxium/scripts/refs/heads/main/beacon.sh)
-    ```
-  - Syncing may take some time. Confirm connection and sync status of the node:
-    ```bash
-    journalctl -f -u node
-    ```
-  - Confirm connection and sync status of the beacon PoS node:
-     ```bash
-     journalctl -f -u beacon
-     ```
+A Canxium node is a single `go-canxium` binary running PoW 2.0 - follow the [Run a PoW 2.0 Node](/guide/pow2/node) guide to build, initialize and start it (with or without mining).
+
+Syncing may take some time. If you run it as a systemd service, confirm connection and sync status with:
+
+```bash
+journalctl -f -u canxium
+```
 
 ## Set Up a Wallet
 

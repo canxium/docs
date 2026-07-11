@@ -19,24 +19,13 @@ const nav: ThemeConfig['nav'] = [
       { text: 'Quick Start', link: '/guide/quick-start' },
       { text: 'Glossary', link: '/guide/essentials/glossary/' },
       { text: 'Security Audits', link: '/guide/essentials/audits/' },
+      { text: 'PoW 2.0 Mining', link: '/guide/pow2/overview' },
       { text: 'Retained PoW Mining', link: '/guide/essentials/retained-pow-mining/' },
       { text: 'How To Mine CAU: Independent', link: '/guide/essentials/how-to-mine/' },
       { text: 'How To Mine CAU: Cross Chain', link: '/guide/essentials/how-to-cross-chain-mining' },
       {
         text: 'Tokenomics',
         link: '/whitepaper/tokenomics/tokenomics'
-      },
-      {
-        text: 'Lighthouse Docs',
-        link: 'https://lighthouse-book.sigmaprime.io/intro.html'
-      },
-      {
-        text: 'Prysm Docs',
-        link: 'https://docs.prylabs.network/docs/getting-started'
-      },
-      {
-        text: 'Lodestar Docs',
-        link: 'https://chainsafe.github.io/lodestar/'
       }
     ]
   },
@@ -62,7 +51,6 @@ const nav: ThemeConfig['nav'] = [
         text: 'Resources',
         items: [
           { text: 'Partners', link: '/partners/' },
-          { text: 'Validators', link: 'https://epoch.canxium.org/' },
           { text: 'App', link: 'https://app.canxium.org/' },
           { text: 'Bridge', link: 'https://app.canxium.org/#/bridge' },
           { text: 'Scan', link: 'https://scan.canxium.org/' },
@@ -79,7 +67,6 @@ const nav: ThemeConfig['nav'] = [
         text: 'Libraries',
         items: [
           { text: 'Go Web3', link: 'https://github.com/canxium/go-web3' },
-          { text: 'Staking CLI', link: 'https://github.com/canxium/staking-deposit-cli' },
           { text: 'Token List', link: 'https://github.com/canxium/swap-default-token-list' }
         ]
       },
@@ -182,10 +169,6 @@ export const sidebar: ThemeConfig['sidebar'] = {
           link: '/guide/essentials/consensus'
         },
         {
-          text: 'Validator Rewards',
-          link: '/guide/essentials/rewards'
-        },
-        {
           text: 'Tokenomics',
           link: '/whitepaper/tokenomics/tokenomics'
         },
@@ -209,26 +192,14 @@ export const sidebar: ThemeConfig['sidebar'] = {
       ]
     },
     {
-      text: 'RPC Nodes',
+      text: 'PoW 2.0 Mining',
       items: [
         {
-          text: 'Prerequisites',
-          link: '/guide/rpc-nodes/prerequisites'
+          text: 'Overview',
+          link: '/guide/pow2/overview'
         },
-        { text: 'Setup', link: '/guide/rpc-nodes/setup' },
-      ]
-    },
-    {
-      text: 'Validator Nodes',
-      items: [
-        {
-          text: 'Prerequisites',
-          link: '/guide/validator/prerequisites'
-        },
-        { text: 'Keys', link: '/guide/validator/keys' },
-        { text: 'Deposit', link: '/guide/validator/deposit' },
-        { text: 'Setup Node', link: '/guide/validator/setup' },
-        { text: 'Exit Node', link: '/guide/validator/exit' },
+        { text: 'Register a Miner', link: '/guide/pow2/register' },
+        { text: 'Run a PoW 2.0 Node', link: '/guide/pow2/node' },
       ]
     }
   ],
@@ -276,7 +247,6 @@ export const sidebar: ThemeConfig['sidebar'] = {
         { text: 'Stabilize Mining Costs', link: '/whitepaper/depth/stabilize' },
         { text: 'Retained Proof of Work', link: '/whitepaper/depth/retained_pow' },
         { text: 'Proof Of Demand', link: '/whitepaper/depth/pod' },
-        { text: 'Proof Of Stake', link: '/whitepaper/depth/pos' },
         { text: 'Smart Contract', link: '/whitepaper/depth/contract' }
       ]
     },
@@ -286,15 +256,12 @@ export const sidebar: ThemeConfig['sidebar'] = {
         { text: 'Independent Retained PoW', link: '/whitepaper/technical/independent_pow' },
         { text: 'Cross-Chain Retained PoW', link: '/whitepaper/technical/cross_chain_pow' },
         { text: 'Proof Of Demand', link: '/whitepaper/technical/pod' },
-        { text: 'Proof Of Stake', link: '/whitepaper/technical/pos' },
       ]
     },
     {
       text: 'Extra Details',
       items: [
         { text: 'Tokenomics', link: '/whitepaper/tokenomics/tokenomics' },
-        { text: 'Tokenomics: Independent Mining Rewards', link: '/whitepaper/tokenomics/independent_mining_rewards' },
-        { text: 'Tokenomics: Cross-Chain Mining Rewards', link: '/whitepaper/tokenomics/cross_chain_mining_rewards' },
         { text: 'Use Cases', link: '/whitepaper/usecases' },
       ]
     }
@@ -307,16 +274,6 @@ export const sidebar: ThemeConfig['sidebar'] = {
         {
           text: 'go-canxium',
           link: '/api/general'
-        }
-      ]
-    },
-    {
-      text: 'Consensus API',
-      items: [
-        { text: 'Lighthouse', link: '/api/lighthouse' },
-        {
-          text: 'Prsym',
-          link: '/api/prysm'
         }
       ]
     },

@@ -6,7 +6,7 @@ The Products shall include, but shall not necessarily be limited to, [https://ap
 
 To access or use any of our Products, you must be able to form a legally binding contract with us. Accordingly, you represent that you are at least the age of majority in your jurisdiction (e.g., 18 years old in the United States) and have the full right, power, and authority to enter into and comply with the terms and conditions of this Agreement on behalf of yourself and any company or legal entity for which you may access or use the Interface. If you are entering into this Agreement on behalf of an entity, you represent to us that you have the legal authority to bind such entity.
 
-> **NOTICE:** This Agreement contains important information, including a binding arbitration provision and a class action waiver, both of which impact your rights as to how disputes are resolved. Our Products are only available to you — and you should only access any of our Products — if you agree completely with these terms.
+> **NOTICE:** This Agreement contains important information, including a binding arbitration provision and a class action waiver, both of which impact your rights as to how disputes are resolved. Our Products are only available to you - and you should only access any of our Products - if you agree completely with these terms.
 
 ---
 

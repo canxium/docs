@@ -8,7 +8,7 @@ This glossary is intended to provide some guidance about the meanings of technic
 A decentralized, distributed ledger technology that securely records transactions across a network of computers. Canxium uses blockchain to ensure transparency, security, and immutability.
 
 ### **CAU**
-The native cryptocurrency of the Canxium blockchain, utilized for transactions, staking, and governance within the network.
+The native cryptocurrency of the Canxium blockchain, utilized for transactions, miner deposits, and network fees.
 
 ### **Consensus Mechanism**
 A method used by blockchain networks to reach agreement on transaction validity. Canxium’s unique consensus model separates core operations from mining, creating a more adaptive and sustainable environment.
@@ -40,8 +40,8 @@ The capacity of a blockchain to handle increased transaction volume while mainta
 ### **Smart Contract**
 A self-executing contract with the terms of the agreement directly written into code. Canxium’s blockchain supports smart contracts to facilitate decentralized applications and services.
 
-### **Staking**
-The act of holding CAU coins to support the network, validate transactions, and earn rewards. Staking provides incentives for users to participate in the security and functionality of the Canxium ecosystem.
+### **Miner Deposit**
+The CAU a miner locks in the Work Distribution Contract to register for PoW 2.0 mining. The deposit secures honest participation and is refunded in full when the miner exits. See [Register a Miner](/guide/pow2/register).
 
 ### **Supply Model**
 The approach by which a blockchain controls its coin issuance. Canxium’s demand-driven supply model means coins are only minted based on market demand, which helps prevent extreme inflation or deflation.
@@ -71,7 +71,7 @@ The measures and protocols that protect the blockchain from malicious attacks or
 A consensus method where miners solve complex algorithms to validate transactions. Canxium’s PoW model is enhanced with Retained PoW Mining, making mining more accessible and inclusive.
 
 ### **Governance**
-The framework through which decisions are made within the Canxium blockchain. CAU holders participate in governance by staking coins, voting on key proposals, and contributing to the platform’s development.
+The framework through which decisions are made within the Canxium blockchain. CAU holders participate in governance by voting on key proposals and contributing to the platform’s development.
 
 ### **Node**
 A device or computer that supports the Canxium blockchain by validating transactions, storing data, and helping maintain network security. Nodes are crucial for Canxium’s decentralization.
