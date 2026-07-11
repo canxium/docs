@@ -52,7 +52,7 @@ If a pool **violates any of the rules** or engages in **fraudulent activities**:
 
 ## 10. Community-Driven Dispute Resolution  
 - If miners suspect a pool is **manipulating rewards or not following the rules**, they can submit a report to **projects@canxium.org**.  
-- A **community review process** can be established where **independent validators** check the complaint before taking action.  
+- A **community review process** can be established where **independent reviewers** check the complaint before taking action.  
 
 ## 11. Cross-Mining Service Fees  
 - **Cross-mining service fees for miners must be made public.**  

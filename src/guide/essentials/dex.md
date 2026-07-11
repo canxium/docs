@@ -1,6 +1,6 @@
 # Canxium Dex
 
-Canxium's Decentralized Exchange (DEX) represents a major component of the Canxium ecosystem, emphasizing stability, security, and scalability. This DEX operates on Canxium's blockchain, utilizing unique consensus mechanisms like Proof of Demand to match network dynamics with actual market demand, and Proof of Stake (PoS) to maintain an efficient, validator-based structure.
+Canxium's Decentralized Exchange (DEX) represents a major component of the Canxium ecosystem, emphasizing stability, security, and scalability. This DEX operates on Canxium's blockchain, utilizing unique consensus mechanisms like Proof of Demand to match network dynamics with actual market demand, and PoW 2.0 to maintain an efficient, cooperatively mined chain.
 
 One of the distinguishing features of Canxium's DEX is its compatibility with Ethereum Virtual Machine (EVM), enabling developers to create and deploy decentralized applications (dApps) seamlessly. This EVM compatibility broadens the scope for projects to transition from or integrate with the Ethereum network while benefiting from Canxium's more sustainable and secure infrastructure. 
 

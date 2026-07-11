@@ -8,11 +8,9 @@
   
 ## Independent Retained Proof of Work (Independent RdPoW) {#pow}
 
-The Canxium blockchain launched with a Proof of Work (PoW) consensus mechanism, with plans to transition to Proof of Stake (PoS) in July 2024. Initially, blocks will be secured and finalized using the Ethash algorithm, and mining will serve as the sole method for generating new Canxium coins. However, even after the switch to PoS, coin generation will continue through a process called Independent RdPoW.
+The Canxium blockchain launched with a Proof of Work (PoW) consensus mechanism in 2023, transitioned to a hybrid Proof of Stake model in July 2024, and returned to pure Proof of Work with [PoW 2.0](/whitepaper-2.0/abstract) in 2026. Initially, blocks were secured and finalized using the Ethash algorithm, and mining served as the sole method for generating new Canxium coins. Alongside block mining, coin generation also happens through a process called Independent RdPoW.
 
-At Canxium, we believe that coins should not be created without effort or resources, and while PoW is essential for bootstrapping the network and securing the initial chain, it should not be the primary, long-term method of sustaining the blockchain. To protect the environment, the chain will ultimately operate with an energy-efficient PoS consensus, where validators create and validate blocks while miners continue generating new coins through Independent RdPoW mining transactions. This hybrid approach balances sustainability with the need for a fair coin creation process.
-
-In a PoS environment, validators will handle block creation and validation, while miners will still play an essential role by broadcasting the mining transactions to validators to mint new Canxium coins. This structure leverages the security of PoS while preserving a vital role for PoW mining. Let’s explore the concept of Independent RdPoW mining in detail to understand how it contributes to Canxium’s unique coin generation model.
+At Canxium, we believe that coins should not be created without effort or resources. Independent RdPoW decouples coin generation from block production: miners create mining transactions embedding real proof of work, and the network verifies them and mints new coins. Let’s explore the concept of Independent RdPoW mining in detail to understand how it contributes to Canxium’s unique coin generation model.
 
 ## Introduction
 
@@ -107,7 +105,7 @@ In the Ethash algorithm, dataset generation is a foundational step. For traditio
 
 e. Mining Process:
 
-In the mining phase, miners search for a valid Proof of Work (PoW) nonce that satisfies the difficulty requirements. Once a valid nonce is found, the mining transaction is broadcast to the Canxium blockchain. Validators then verify and confirm this transaction, sealing it into the next block. As a result, new CAU coins are generated as mining rewards. These rewards are distributed among Independent RdPoW miners, validators, and Canxium Labs, creating an inclusive reward-sharing model that supports ecosystem growth and sustainability.
+In the mining phase, miners search for a valid Proof of Work (PoW) nonce that satisfies the difficulty requirements. Once a valid nonce is found, the mining transaction is broadcast to the Canxium blockchain. The network then verifies and confirms this transaction, sealing it into the next block. As a result, new CAU coins are generated as mining rewards. These rewards are distributed among Independent RdPoW miners, block producers, and Canxium Labs, creating an inclusive reward-sharing model that supports ecosystem growth and sustainability.
 
 The seamless integration of Independent RdPoW mining into Canxium’s blockchain reflects our commitment to inclusivity, environmental responsibility, and fostering decentralized participation. By enabling miners to operate independently of continuous network connectivity, Canxium opens the door for a broader range of participants. This approach not only minimizes energy consumption but also aligns with our mission to create a sustainable and accessible blockchain ecosystem that empowers all contributors.
 

@@ -8,7 +8,7 @@
   
 ## Stability and Reliability {#stability}
 
-Stability is foundational to Canxium’s purpose, shaping our vision of a cryptocurrency that offers both security and predictability in a notoriously volatile market. We are committed to reducing extreme price movements by implementing an advanced, algorithm-driven supply mechanism. This solution not only counters market fluctuations but also enables Canxium to function as a trustworthy medium of exchange and a reliable store of value—qualities essential for mainstream adoption.
+Stability is foundational to Canxium’s purpose, shaping our vision of a cryptocurrency that offers both security and predictability in a notoriously volatile market. We are committed to reducing extreme price movements by implementing an advanced, algorithm-driven supply mechanism. This solution not only counters market fluctuations but also enables Canxium to function as a trustworthy medium of exchange and a reliable store of value-qualities essential for mainstream adoption.
 
 Our approach begins with a unique adaptive supply adjustment model that dynamically aligns the coin’s supply with real-time demand. By automatically recalibrating supply based on prevailing market conditions, Canxium can significantly moderate price volatility, providing users with greater confidence in the currency’s stability. This allows Canxium to cater effectively to both daily transactional needs and long-term investment strategies, as users can anticipate a currency whose value remains relatively steady over time.
 

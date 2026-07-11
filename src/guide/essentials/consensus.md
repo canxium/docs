@@ -2,16 +2,16 @@
 
 Canxium is an advanced layer-one blockchain platform designed to bring stability, reliability, and inclusivity to the cryptocurrency ecosystem. At its core, Canxium introduces a revolutionary demand-driven supply mechanism, dynamically adjusting coin supply in response to real-world demand. This approach helps stabilize currency value while fostering a resilient and adaptable economic model, offering both users and investors a reliable digital asset.
 
-One of Canxium’s standout innovations is its Retained PoW Mining feature, which allows individuals in regions with limited internet access to participate in mining. This breakthrough not only broadens global access to cryptocurrency but also promotes financial inclusion by empowering underserved communities to engage with digital finance.
+Canxium is secured by **PoW 2.0 - the Cooperative Consensus Protocol (CCP)**, a complete re-engineering of Proof of Work. Instead of miners competing over the same nonce space and wasting hash power on orphaned blocks, a system-level Work Distribution Contract assigns every registered miner an exclusive nonce range, so the entire network cooperates to seal a single canonical chain. Combined with pipelined transaction execution and lagged reward settlement, this delivers near-100% hash power efficiency, second-level block times, and stronger 51%-attack resistance.
 
-Canxium is designed to address persistent challenges that hinder widespread cryptocurrency adoption: price volatility, scalability, accessibility, and reliability. By tackling these issues, Canxium aims to create a stable, sustainable digital economy capable of supporting real-world applications and everyday transactions.
+Read the full protocol design in the [PoW 2.0 Whitepaper](/whitepaper-2.0/abstract), or jump straight to [mining on PoW 2.0](/guide/pow2/overview).
 
-What truly sets Canxium apart is its multi-consensus model, which integrates three consensus algorithms - Proof of Work (PoW), Proof of Demand (PoD), and Proof of Stake (PoS) - within a single blockchain. Each algorithm brings unique strengths to the network: PoW provides high-level security, PoD ensures the network adapts to real-time demand, and PoS offers energy efficiency. This strategic blend allows Canxium to counterbalance the weaknesses of each method, resulting in a cohesive and robust blockchain.
+## A brief history
 
-![alt text](image.png)
+Canxium's consensus has evolved through three phases:
 
-By combining these consensus mechanisms, Canxium creates a stable, scalable, and decentralized ecosystem that can seamlessly adapt to network demands, accommodate diverse participation, and ensure fair reward distribution. This carefully engineered structure establishes Canxium as a forward-thinking blockchain platform, poised to lead the next generation of digital economies through an innovative, inclusive, and resilient approach.
+1. **Proof of Work (2023).** Canxium launched as a pure PoW chain using the Ethash algorithm.
+2. **Hybrid Proof of Stake (2024–2026).** To support cross-chain and offline (Retained PoW) mining, Canxium transitioned to a hybrid model where staked validators produced blocks while miners generated coins through mining transactions.
+3. **PoW 2.0 (2026–).** The hybrid model proved an unsuitable long-term fit, and Canxium returned to its Proof-of-Work heritage with PoW 2.0 - keeping PoW's security while eliminating its inefficiencies.
 
-The native coin, CAU, powers this ecosystem, facilitating transactions, staking, and network governance.
-
-For more info about Canxium's consensus, read our whitepaper: [Whitepaper](/whitepaper/depth/summary)
+The native coin, CAU, powers this ecosystem, facilitating transactions, mining deposits, and network fees.

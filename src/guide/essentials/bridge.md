@@ -3,14 +3,14 @@
 The **Canxium Bridge**, available at [app.canxium.org/#/bridge](https://app.canxium.org/#/bridge), is designed to securely transfer assets between the Canxium and Ethereum networks. Building a secure bridge between blockchains is challenging, as numerous hacks have targeted other bridges, leading to billions of dollars in losses. Canxium introduces a multi-layered security solution that aims to be the safest bridge available today.
 
 :::info
-Bridge is still in the early stages of its development roadmap, operating in a centralized manner and managed by the Canxium Labs. In the future, it will transition to being fully decentralized under the governance of validators.
+Bridge is still in the early stages of its development roadmap, operating in a centralized manner and managed by the Canxium Labs. In the future, it will transition to being fully decentralized under community governance.
 :::
 
 ### Key Security Features of Canxium Bridge
 
 1. **Multi-Tiered Permission Structure** 
    ![alt text](./images/bridge.png)
-   The Canxium Bridge’s structure uses three different roles—**Operator**, **Guarder**, and **Admin**—to secure asset transfers:
+   The Canxium Bridge’s structure uses three different roles-**Operator**, **Guarder**, and **Admin**-to secure asset transfers:
    - **Operator**: A hot wallet that monitors and initiates transfer events between Canxium and Ethereum. It sends asset information transactions to the target chain. After confirmation of 10 blocks, users can claim the assets.
    - **Guarder**: A cold wallet that monitors the Operator. If it detects any suspicious or inappropriate actions, it can halt smart contract operations by sending a pre-signed transaction. This ensures that private keys remain secure, as the Guarder operates offline.
    - **Admin**: The highest authority, also managed via a cold wallet. Admin has the power to cancel any transactions flagged by the Guarder and can reactivate the contract after removing invalid data and replacing compromised operators.

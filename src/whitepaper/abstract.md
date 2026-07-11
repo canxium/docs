@@ -6,6 +6,10 @@
 - Version: v2.7
   :::
 
+:::warning Consensus update
+This whitepaper describes Canxium's original design, including its hybrid Proof of Stake era. Canxium launched as a pure PoW chain in 2023, ran a hybrid PoS model from 2024, and has now returned to pure Proof of Work with **PoW 2.0**. For the current consensus design, read the [PoW 2.0 Whitepaper](/whitepaper-2.0/abstract).
+:::
+
 ## Abstract {#abstract}
 
 In the real economy, goods and services are produced at relatively stable costs. This principle anchors prices over time: when demand rises, production expands; when demand slows, output contracts. Stability of production costs underpins sustainable markets.

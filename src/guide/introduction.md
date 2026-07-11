@@ -57,12 +57,10 @@ By combining **decentralized supply control, Retained PoW mining, and predictabl
 
 ## What is Canxium's consensus?
 
-Canxium is currently the only blockchain that simultaneously utilizes three distinct consensus algorithms, working in tandem to complement each other and minimize the shortcomings of each individual algorithm.
+Canxium is secured by **PoW 2.0 - the Cooperative Consensus Protocol (CCP)**, a re-engineered Proof of Work in which all registered miners cooperate to seal a single canonical chain instead of racing each other. A system-level Work Distribution Contract assigns each miner an exclusive nonce range, transaction execution is pipelined ahead of mining, and rewards are settled on-chain one block later - delivering near-100% hash power efficiency and second-level block times.
 
-The three consensus algorithms in Canxium include:
+Canxium launched as a pure PoW chain in 2023, transitioned to a hybrid Proof of Stake model in 2024 to support cross-chain and offline mining, and returned to pure Proof of Work with PoW 2.0 in 2026.
 
-Proof of Stake: Anyone can become a validator on Canxium with just 320 CAU, allowing them to validate and operate the Canxium blockchain while earning rewards.
+Alongside PoW 2.0, **Proof of Demand** - a decentralized supply control mechanism that adjusts issuance based on real market demand - governs how new CAU enters circulation.
 
-Proof of Demand: A decentralized supply control mechanism that adjusts based on real market demand.
-
-Proof of Work: Miners play a key role in generating new CAU tokens and can even mine offline if they wish.
+Learn more in the [PoW 2.0 Whitepaper](/whitepaper-2.0/abstract) or start with the [PoW 2.0 mining guide](/guide/pow2/overview).

@@ -14,12 +14,12 @@ Today, Canxium is actively maintained by [both full-time and volunteer members](
 Canxium Blockchain is a decentralized, secure platform designed to create a secure and sustainable environment for the blockchain field in general and crypto in particular, Canxium has achieved significant milestones through various consensus algorithms, such as enabling offline mining, fully decentralized coin supply control, and adapting to market demand. It utilizes a blockchain ledger to ensure transparency, security, and trust in data and asset exchanges.
 
 **2. How does Canxium Blockchain work?**  
-Canxium Blockchain operates as a distributed ledger, recording transactions across a network of nodes. Each transaction is verified through PoS consensus, and once confirmed, it's added to a block in the blockchain. 
+Canxium Blockchain operates as a distributed ledger, recording transactions across a network of nodes. Each transaction is verified through the PoW 2.0 cooperative consensus, and once confirmed, it's added to a block in the blockchain. 
 
 **3. What are the benefits of using Canxium Blockchain?**  
 The main benefits include enhanced security, transparency, and efficiency in transactions. It reduces the need for intermediaries, which lowers costs and minimizes delays. The blockchain’s decentralized nature also provides resilience against attacks and system failures.
 
-Canxium also allows miners to operate entirely offline by creating special mining transactions and using various algorithms, such as Ethash and SHA-256, as proof of work. These are then sent to validators who use the PoS consensus algorithm to verify and mint new CAU coins.
+Canxium also allows miners to operate entirely offline by creating special mining transactions and using various algorithms, such as Ethash and SHA-256, as proof of work. These are then submitted to the network, which verifies them and mints new CAU coins.
 
 **4. Who can use the Canxium Blockchain?**  
 Individuals, businesses, and developers looking for a secure, decentralized platform for transactions and data exchange can use Canxium Blockchain.
@@ -41,7 +41,7 @@ Together, these approaches allow Canxium to provide the security and decentraliz
 ## Technical Questions
 
 **1. What consensus algorithm does Canxium Blockchain use?**  
-Canxium Blockchain uses PoW, PoS and PoD to achieve consensus across its distributed network of nodes.
+Canxium Blockchain uses [PoW 2.0 (Cooperative Consensus Protocol)](/whitepaper-2.0/abstract) together with Proof of Demand (PoD) for supply control. Canxium launched as a pure PoW chain in 2023, ran a hybrid Proof of Stake model from 2024, and returned to pure Proof of Work with PoW 2.0 in 2026.
 
 **2. What are Canxium token, and how can I acquire them?**  
 $CAU is the native asset of the Canxium Blockchain. They can be acquired through our Canxium Swap or Mexc, Xeggex.
@@ -52,7 +52,7 @@ Yes, developers can build decentralized applications (dApps) on Canxium using So
 ## Transaction Questions
 
 **1. How long does it take to process a transaction on Canxium?**  
-Transactions on Canxium Blockchain typically take 6 seconds to be confirmed, depending on the network traffic and consensus algorithm.
+Transactions on Canxium Blockchain are typically confirmed within a couple of seconds - PoW 2.0 targets 1–1.5 second block times.
 
 **2. What are the transaction fees on Canxium?**  
 Transaction fees vary depending on the network’s demand at the time of the transaction. Canxium strives to keep fees low to enable affordable use of the network.

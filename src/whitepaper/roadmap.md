@@ -20,9 +20,7 @@ Canxium’s journey is guided by a comprehensive **roadmap** that outlines our s
 
 The difficulty-based reward system is an innovative idea, but it has certain drawbacks, which we are fully aware of. One significant downside is its potential negative impact on the network's safety. With low demand, miners may lose the incentive to continue contributing their mining power to secure the network. As a result, **separating coin mining from chain operation** has become an urgent and critical issue.
 
-- **PoS Mechanism**: Canxium will inherit Ethereum’s **Proof of Stake (PoS)** mechanism to save on development time and costs. However, the PoS rewards system will undergo modifications. PoS rewards will only be distributed if a validator’s balance drops below **320 CAU** due to penalties. This mechanism ensures that validators remain active within the network and helps prevent situations where their balances continually decrease due to penalties.
-
-- **PoS Rewards Distribution**: The main source of PoS rewards will come from **Retained PoW mining**. Validators will share **15%** of the mining rewards with miners.
+During this phase, Canxium inherited Ethereum’s **Proof of Stake (PoS)** mechanism (with a modified rewards system) to operate the chain while miners generated coins through Retained PoW mining transactions. This hybrid era ended in 2026, when Canxium returned to pure Proof of Work with [PoW 2.0](/whitepaper-2.0/abstract).
 
 ### Updated Roadmap
 
@@ -32,7 +30,7 @@ More than a year has passed with many difficulties and events. Nevertheless, Can
 - **Stable Mining Costs**
 - **A blockchain with a supply that adjusts to market demand**
 
-At the same time, we have successfully implemented all three consensus algorithms in a single blockchain, which is unprecedented. No project has accomplished this: **Proof of Work**, **Proof of Demand**, and **Proof of Stake**.
+At the same time, we successfully implemented three consensus algorithms in a single blockchain, which is unprecedented: **Proof of Work**, **Proof of Demand**, and **Proof of Stake**. In 2026, this hybrid model was retired in favor of [PoW 2.0](/whitepaper-2.0/abstract), returning Canxium to its pure Proof-of-Work heritage with cooperative mining.
 
 Thus, we have successfully completed our first mission beyond expectations. It is time for us to take another step forward and present the next vision for Canxium, focusing on building a **complete ecosystem** and moving toward **full decentralization** of this blockchain. The Canxium Labs will become an organization aimed at realizing ideas & missions initiated and approved by the community of CAU stakeholders. This is the next mission and vision we are striving for until we achieve it.
 
@@ -53,7 +51,7 @@ This transition phase will focus on addressing outstanding issues from before, i
 
 ---
 
-## **Phase 3: Ecosystem Development (Q1 2025 — Q4 2025)**
+## **Phase 3: Ecosystem Development (Q1 2025 - Q4 2025)**
 
 - **dApp Development Toolkit**: Release a toolkit and documentation to help developers easily build dApps on Canxium.
 - **Marketplace for dApps**: Introduce a centralized marketplace for discovering and using dApps built on Canxium.
@@ -64,11 +62,11 @@ This transition phase will focus on addressing outstanding issues from before, i
 
 ---
 
-## **Phase 4: User Engagement and Adoption (Q1 2026 — Q4 2027)**
+## **Phase 4: User Engagement and Adoption (Q1 2026 - Q4 2027)**
 
 - **Cross-Chain Functionality**: Expand the existing bridge to connect with other blockchain networks beyond Ethereum, facilitating the transfer of assets between blockchains easily, securely, and quickly.
 - **Incentive Program**: Implement reward programs for users participating in the network and using dApps. Programs will include **referral bonuses**, and **community challenges** to drive engagement.
-- **Staking Program**: Users can stake any amounts of **CAU** and receive rewards from validators as well as from dApps built on Canxium. Rewards will be distributed in various tokens or assets, not just the native token.
+- **Rewards Program**: Users can lock any amounts of **CAU** and receive rewards from dApps built on Canxium. Rewards will be distributed in various tokens or assets, not just the native token.
 - **Educational Initiatives**: Roll out webinars, tutorials, and documentation to onboard new users and developers.
 - **Launch CNS**: Canxium Name Service.
 - **Launch COF**: Canxium Official Forum (low priority).

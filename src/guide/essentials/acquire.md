@@ -10,17 +10,17 @@ The **$CAU** token is Canxium’s native cryptocurrency, serving as the primary 
 
 - **Transaction Fees**: $CAU is required to pay transaction fees on the network, enabling users to perform various operations such as transferring funds or interacting with smart contracts.
   
-- **Validator Participation**: Validators need to stake **$CAU** to secure the network and participate in block creation and validation within the Proof of Stake (PoS) consensus mechanism.
+- **Miner Registration**: Miners need to deposit **$CAU** in the Work Distribution Contract to register for PoW 2.0 mining and participate in block creation.
 
 - **Platform Benefits**: Holding $CAU offers users access to special privileges, discounts, or incentives on the platform as the ecosystem evolves.
 
-As the backbone of Canxium's ecosystem, $CAU will drive the network's services and functions, ensuring a stable and functional economic model for users, validators, and other stakeholders.
+As the backbone of Canxium's ecosystem, $CAU will drive the network's services and functions, ensuring a stable and functional economic model for users, miners, and other stakeholders.
 
 You can buy CAU from [Mexc](https://www.mexc.com/exchange/CAU_USDT) or [Coinex](https://www.coinex.com/en/exchange/CAU-USDT)
 
 ### 2. **Mining Token: $OFF**
 
-Canxium is pioneering the combination of both **Proof of Work (PoW)** and **Proof of Stake (PoS)** consensus mechanisms, with PoW remaining at the core of its design. After transitioning to **Retained PoW mining**, Canxium will introduce **$OFF**, a secondary token specifically for mining activities. 
+Proof of Work is at the core of Canxium's design. After transitioning to **Retained PoW mining**, Canxium introduced **$OFF**, a secondary token specifically for mining activities. 
 
 - **Mining Rewards**: Miners will use the $OFF token in conjunction with mining activities. They will need to burn **$OFF** tokens with each mining transaction to have more **$CAU** rewards. This burn mechanism ensures that the value of $OFF remains integral to the mining process and further supports Canxium's economic model by introducing scarcity and incentivizing participation.
 
