@@ -31,7 +31,7 @@ Never reuse your miner (deposit) key as the signer key. The signer key sits on a
 The minimum deposit grows with the number of miners already registered:
 
 ```
-required = MIN_DEPOSIT × (minersCount + 1) × 23053 / 5,000,000
+required = MIN_DEPOSIT + (MIN_DEPOSIT × (minersCount + 1) × 23053) / 5,000,000
 ```
 
 where `MIN_DEPOSIT` is 303 CAU. Check the current number of registered miners:
@@ -42,7 +42,7 @@ cast call 0x0000000000000000000000000000000000003003 \
   --rpc-url https://rpc.canxium.org
 ```
 
-For example, if 9 miners are already registered, the required deposit is `303 × 10 × 23053 / 5,000,000 ≈ 13.97 CAU`. Send a little more than the computed minimum to be safe - the transaction reverts if the value is below the requirement, and the full amount you send is credited as your deposit and returned when you exit.
+For example, if 9 miners are already registered, the required deposit is `303 + (303 × 10 × 23053) / 5,000,000 ≈ 316.97 CAU`. Send a little more than the computed minimum to be safe - the transaction reverts if the value is below the requirement, and the full amount you send is credited as your deposit and returned when you exit.
 
 ## 3. Register
 
@@ -51,7 +51,7 @@ Call `register(address signer)` from your **miner account**, passing your **sign
 ```
 cast send 0x0000000000000000000000000000000000003003 \
   "register(address)" <YOUR_SIGNER_ADDRESS> \
-  --value 14ether \
+  --value 317ether \
   --rpc-url https://rpc.canxium.org \
   --private-key <YOUR_MINER_PRIVATE_KEY>
 ```
