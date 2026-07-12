@@ -18,7 +18,7 @@ In PoW 2.0, miners cooperate on a single canonical block:
 
 **Miners and pools** must do two things to participate:
 
-1. [Register a miner in the WDC](/guide/pow2/register) - deposit CAU and link a **signer** address to your miner address.
+1. [Register a miner in the WDC](/guide/pow2/register) - your **signer** account deposits CAU and registers your **miner** (reward) address.
 2. [Run a PoW 2.0 node](/guide/pow2/node) with mining enabled, configured with your miner address and signer key.
 
 Solo mining without registration is not possible: a block is only valid if its nonce falls inside the range the WDC assigned to the sealing miner.
@@ -31,8 +31,8 @@ Solo mining without registration is not possible: a block is only valid if its n
 
 | Term | Meaning |
 | --- | --- |
-| **Miner address** | The address that registers in the WDC, owns the deposit and receives block rewards. Keep its key safe (cold). |
-| **Signer address** | A hot key linked to the miner at registration. Its private key lives on your mining node (`--miner.signerkey`) and signs the payloads your node broadcasts. It holds no funds. |
+| **Miner address** | The address registered in the WDC that receives block rewards and the deposit refund. It never has to send a transaction - keep its key safe (cold). |
+| **Signer address** | The hot key that registers the miner (paying the deposit) and can queue its exit. Its private key lives on your mining node (`--miner.signerkey`) and signs the payloads your node broadcasts. It needs funds only for registration. |
 | **Nonce range** | The exclusive `[start, end]` slice of the 64-bit nonce space assigned to your miner. Your node only searches this range. |
 | **Epoch** | A fixed number of blocks. At each epoch boundary the WDC recalculates all nonce ranges, weighted by how many blocks each miner won in the previous epoch, so range size follows real hash power. |
 | **System transaction** | The transaction the consensus engine injects into every block to report the previous block's winning nonce to the WDC and settle the lagged reward. |

@@ -50,11 +50,11 @@ The mining flags:
 | Flag | Value |
 | --- | --- |
 | `--miner.etherbase` | Your **miner address** - the address you registered in the WDC. The node uses it to look up your assigned nonce range. Block rewards are paid to this address by the contract. |
-| `--miner.signerkey` | The hex **private key of your signer** - the address you passed to `register(signer)`. It signs the payloads your node broadcasts; other nodes verify the signature against the signer registered for your miner. |
+| `--miner.signerkey` | The hex **private key of your signer** - the account that sent your `register(miner)` transaction. It signs the payloads your node broadcasts; other nodes verify the signature against the signer registered for your miner. |
 | `--miner.threads` | Number of CPU mining threads. |
 
 :::warning
-The signer key is a hot key on this machine. Use a dedicated key with no funds - never your miner (deposit) key.
+The signer key is a hot key on this machine. Use a dedicated key - never your miner (reward) key. It only needs funds once, to pay the registration deposit; rewards and refunds always go to your miner address.
 :::
 
 ### RPC / full node (no mining)
